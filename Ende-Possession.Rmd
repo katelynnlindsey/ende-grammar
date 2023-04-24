@@ -269,3 +269,10 @@ tidy_poss %>%
 
 The genitive is also much more common than the ablative.
 
+A reminder to save all my dataframes to be pushed to GitHub.
+```{r}
+write.csv(phrases, "phrases.csv", row.names = FALSE)
+write.csv(df_poss, "df_poss.csv", row.names = FALSE)
+write.csv(tidy_poss, "tidy_poss.csv", row.names = FALSE)
+
+```
