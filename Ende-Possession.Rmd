@@ -1,0 +1,271 @@
+---
+title: "Ende Possession"
+author: "Kate Lindsey"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Data mining
+
+The raw data comes from a .txt file called phrases.txt, which was provided by Jack Rabinovitch. The data was scraped from an April 2023 version of the Ende FLEx corpus.
+
+```{r}
+library(readr)
+phrases <- read_delim("C:/Users/profk/Downloads/phrases.txt", 
+     delim = "\t", escape_double = FALSE, 
+     trim_ws = TRUE)
+```
+
+This dataframe has 37,772 phrases.
+
+To focus on possession terms, I reduced the data to only the rows that have ".poss" or "sg.abl" in the words_gls column.
+
+```{r}
+phrases$words_gls <- gsub("sg.abl", "sg.pst.poss", phrases$words_gls)
+
+df_poss <- subset(phrases, grepl("poss", words_gls))
+```
+
+The new dataframe has 7,560 phrases.
+
+To tidy up the dataframe, I will create a new column for the phrase (phrase_txt), which is words_txt without the commas. I will rename the gls column to phrase_tr, the words_txt to word_txt and the words_gl to word_tr and I will remove all columns except for word_tr, word_txt, phrase_tr, and phrase_txt.
+
+```{r}
+library(dplyr)
+
+tidy_poss <- df_poss %>% mutate(phrase_txt = gsub(",", " ", words_txt))
+tidy_poss$phrase_txt <- gsub("  ", " ", tidy_poss$phrase_txt)
+tidy_poss$phrase_txt <- gsub("  ", " ", tidy_poss$phrase_txt)
+tidy_poss$phrase_txt <- gsub("  ", " ", tidy_poss$phrase_txt)
+tidy_poss <- tidy_poss %>% rename(phrase_tr = gls, word_txt = words_txt, word_tr = words_gls)
+tidy_poss <- select(tidy_poss, word_txt, word_tr, phrase_txt, phrase_tr)
+```
+
+Now, we will reorganize the dataframe so that each row represents one word.
+
+```{r}
+library(tidyr)
+library(stringr)
+
+tidy_poss$word_tr <- gsub("correct, true, right", "correct", tidy_poss$word_tr) #this translation was giving us trouble
+
+tidy_poss[265, "word_tr"] <- paste(tidy_poss[265, "word_tr"], " ,")
+tidy_poss[422, "word_tr"] <- paste(tidy_poss[422, "word_tr"], " ,")
+tidy_poss[1225, "word_tr"] <- paste(tidy_poss[1225, "word_tr"], " ,")
+tidy_poss[1309, "word_tr"] <- paste(tidy_poss[1309, "word_tr"], " ,")
+tidy_poss[3378, "word_tr"] <- paste(tidy_poss[3378, "word_tr"], " ,")
+tidy_poss[3733, "word_tr"] <- paste(tidy_poss[3733, "word_tr"], " ,")
+tidy_poss[4198, "word_tr"] <- paste(tidy_poss[4198, "word_tr"], " ,")
+tidy_poss[4619, "word_tr"] <- paste(tidy_poss[4619, "word_tr"], " ,")
+tidy_poss[4652, "word_tr"] <- paste(tidy_poss[4652, "word_tr"], " ,")
+tidy_poss[5045, "word_tr"] <- paste(tidy_poss[5045, "word_tr"], " ,")
+tidy_poss[5207, "word_tr"] <- paste(tidy_poss[5207, "word_tr"], " ,")
+tidy_poss[5391, "word_tr"] <- paste(tidy_poss[5391, "word_tr"], " ,")
+tidy_poss[5650, "word_tr"] <- paste(tidy_poss[5650, "word_tr"], " ,")
+tidy_poss[5989, "word_tr"] <- paste(tidy_poss[5989, "word_tr"], " ,")
+tidy_poss[5990, "word_tr"] <- paste(tidy_poss[5990, "word_tr"], " ,")
+tidy_poss[5991, "word_tr"] <- paste(tidy_poss[5991, "word_tr"], " ,")
+tidy_poss[5992, "word_tr"] <- paste(tidy_poss[5992, "word_tr"], " ,")
+tidy_poss[6276, "word_tr"] <- paste(tidy_poss[6276, "word_tr"], " ,")
+tidy_poss[6286, "word_tr"] <- paste(tidy_poss[6286, "word_tr"], " ,")
+tidy_poss[6333, "word_tr"] <- paste(tidy_poss[6333, "word_tr"], " ,")
+tidy_poss[6418, "word_tr"] <- paste(tidy_poss[6418, "word_tr"], " ,")
+tidy_poss[6509, "word_tr"] <- paste(tidy_poss[6509, "word_tr"], " ,")
+tidy_poss[6519, "word_tr"] <- paste(tidy_poss[6519, "word_tr"], " ,")
+tidy_poss[6672, "word_tr"] <- paste(tidy_poss[6672, "word_tr"], " ,")
+tidy_poss[6802, "word_tr"] <- paste(tidy_poss[6802, "word_tr"], " ,")
+tidy_poss[6913, "word_tr"] <- paste(tidy_poss[6913, "word_tr"], " ,")
+tidy_poss[6939, "word_tr"] <- paste(tidy_poss[6939, "word_tr"], " ,")
+tidy_poss[6962, "word_tr"] <- paste(tidy_poss[6962, "word_tr"], " ,")
+tidy_poss[7030, "word_tr"] <- paste(tidy_poss[7030, "word_tr"], " ,")
+tidy_poss[7032, "word_tr"] <- paste(tidy_poss[7032, "word_tr"], " ,")
+tidy_poss[7043, "word_tr"] <- paste(tidy_poss[7043, "word_tr"], " ,")
+tidy_poss[7110, "word_tr"] <- paste(tidy_poss[7110, "word_tr"], " ,")
+tidy_poss[7276, "word_tr"] <- paste(tidy_poss[7276, "word_tr"], " ,")
+tidy_poss[7348, "word_tr"] <- paste(tidy_poss[7348, "word_tr"], " ,")
+
+
+tidy_poss <- tidy_poss %>% separate_rows(word_txt, word_tr, sep = ", ")
+tidy_poss <- tidy_poss %>% mutate_all(str_trim)
+```
+
+Now, we will add four columns, two for previous word and previous word translation and two for following word and following word translation.
+
+```{r}
+tidy_poss$prev_word_txt <- lag(tidy_poss$word_txt)
+tidy_poss$prev_word_tr <- lag(tidy_poss$word_tr)
+tidy_poss$next_word_txt <- lead(tidy_poss$word_txt)
+tidy_poss$next_word_tr <- lead(tidy_poss$word_tr)
+```
+
+Now, we will clean up the rows once more, only retaining the words with "poss" in the word_tr column and removing capitalization.
+
+```{r}
+tidy_poss <- subset(tidy_poss, grepl("poss", word_tr))
+tidy_poss$word_txt <- tolower(tidy_poss$word_txt)
+tidy_poss$prev_word_txt <- tolower(tidy_poss$prev_word_txt)
+tidy_poss$next_word_txt <- tolower(tidy_poss$next_word_txt)
+```
+
+I noticed that possession words followed by certain words are not marking possession in the sense we are interested in, so I will remove all the rows that have these words in the next_word_txt column.
+
+```{r}
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "peyang", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "pate", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "patme", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "pallall", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "moko", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "umllang", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "kame", ]
+```
+
+This reduced the number of observations from 10546 to 9547.
+
+## Data visualization
+
+Here is a list of all the possession words identified in the dataset, along with their frequencies.
+
+```{r word frequencies}
+library(ggplot2)
+
+tidy_poss %>%
+     count(word_txt, sort = TRUE) %>%
+     filter(n > 1) %>%
+     mutate(word_txt = reorder(word_txt, n)) %>%
+     ggplot(aes(n, word_txt)) +
+     geom_col() +
+     labs(y = NULL)
+```
+
+Here is a list of all the glosses of the possession words identified in the dataset, along with their frequencies.
+
+```{r gloss frequencies}
+tidy_poss %>%
+     count(word_tr, sort = TRUE) %>%
+     filter(n > 1) %>%
+     mutate(word_tr = reorder(word_tr, n)) %>%
+     ggplot(aes(n, word_tr)) +
+     geom_col() +
+     labs(y = NULL)
+```
+
+Here is a word cloud of all the words in the next_word_txt, which we may assume to be the possessees in this dataset.
+
+```{r}
+library(wordcloud)
+
+tidy_poss %>%
+  count(next_word_txt) %>%
+  with(wordcloud(next_word_txt, n, max.words = 100))
+```
+
+Here is a word cloud of all the words in the next_word_tr, which we may assume to be the possessees in this dataset.
+
+```{r}
+library(wordcloud)
+
+tidy_poss %>%
+  count(next_word_tr) %>%
+  with(wordcloud(next_word_tr, n, max.words = 100))
+```
+
+We can do a little more clean-up here, removing the words ngatengate 'possum' and ai 'possible'.
+
+```{r}
+tidy_poss <- tidy_poss %>%
+  filter(!grepl("possum|possible", word_tr))
+```
+
+## Data coding
+
+We can now start to code our dataset for relevant properties.
+
+First, we can clean up our list or possession words by making a new column called possession type.
+
+```{r}
+tidy_poss <- tidy_poss %>%
+  mutate(poss_type = if_else(!str_detect(word_tr, "cl\\.poss\\.kin"), paste("da", next_word_txt, sep = " "), "da"), poss_type = if_else(!str_detect(word_tr, "cl\\.p"), word_txt, poss_type))
+
+tidy_poss <- tidy_poss %>% 
+  mutate(poss_type = gsub("\\b\\w+aba\\b", "aba", poss_type))
+tidy_poss$poss_type <- ifelse(tidy_poss$poss_type == "lla (y)aba", "aba", tidy_poss$poss_type)
+
+tidy_poss$poss_type <- gsub("lla aba", "aba", tidy_poss$poss_type)
+
+tidy_poss$poss_type <- gsub("abaene|yabaene|llayabaene|llaeyabaene|\\bbaene", "abaene", tidy_poss$poss_type)
+
+tidy_poss$poss_type <- gsub("llabo", "bo", tidy_poss$poss_type)
+
+tidy_poss$poss_type <- gsub("obäne|obne", "obene", tidy_poss$poss_type)
+
+tidy_poss$poss_type <- gsub("ngämne|ngämäne", "ngämene", tidy_poss$poss_type)
+
+tidy_poss$poss_type <- gsub("mangda", "da", tidy_poss$poss_type)
+
+
+tidy_poss$poss_type <- ifelse(tidy_poss$word_tr == "2.sg.poss", "bäne (2)", tidy_poss$poss_type)
+
+
+tidy_poss$poss_type <- trimws(tidy_poss$poss_type)
+tidy_poss$poss_type <- gsub(",", "", tidy_poss$poss_type)
+```
+
+Now, we can look at the frequencies of possession type.
+
+```{r}
+tidy_poss %>%
+     count(poss_type, sort = TRUE) %>%
+     filter(n > 0) %>%
+     mutate(poss_type = reorder(poss_type, n)) %>%
+     ggplot(aes(n, poss_type)) +
+     geom_col() +
+     labs(y = NULL)
+```
+
+Next, we can add a column that splits the data between pronominal and non-pronominal possession types.
+
+```{r}
+tidy_poss$pronominal <- ifelse(grepl("[1-3]", tidy_poss$word_tr), "yes", "no")
+table(tidy_poss$pronominal)
+
+# Wordcloud for pronominal = "yes"
+tidy_poss %>%
+  filter(pronominal == "yes") %>%
+  count(next_word_tr) %>%
+  with(wordcloud(next_word_tr, n, max.words = 100))
+
+# Wordcloud for pronominal = "no"
+tidy_poss %>%
+  filter(pronominal == "no") %>%
+  count(next_word_tr) %>%
+  with(wordcloud(next_word_tr, n, max.words = 100))
+```
+
+We learn that the data is overwhelmingly pronominal.
+
+How about genitive and ablative for the pronominal forms?
+
+```{r}
+tidy_poss$ablative <- ifelse(tidy_poss$pronominal == "yes" & grepl("pst", tidy_poss$word_tr), "yes", 
+                     ifelse(tidy_poss$pronominal == "yes" & !grepl("pst", tidy_poss$word_tr), "no", NA))
+
+table(tidy_poss$ablative)
+
+# Wordcloud for ablative = "yes"
+tidy_poss %>%
+  filter(ablative == "yes") %>%
+  count(next_word_tr) %>%
+  with(wordcloud(next_word_tr, n, max.words = 100))
+
+# Wordcloud for ablative = "no"
+tidy_poss %>%
+  filter(ablative == "no") %>%
+  count(next_word_tr) %>%
+  with(wordcloud(next_word_tr, n, max.words = 100))
+```
+
+The genitive is also much more common than the ablative.
+
