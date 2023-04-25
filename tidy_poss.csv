@@ -989,7 +989,7 @@
 "ngämo","1.sg.poss","Ngämo mälla da ngämo llɨg a män a","My wife, my child, the daughter","baba","father,","mälla","woman","ngämo","yes","no","kinship"
 "ngämo","1.sg.poss","Ngämo mälla da ngämo llɨg a män a","My wife, my child, the daughter","","","llɨg","boy","ngämo","yes","no","kinship"
 "ngämo","1.sg.poss","Kominiti chip dan ngäna ngämo melem a gänyag ada kominiti di ngäna ikop bägnegne","I am the community chief, I look after the community. Take charge of bad things that happen in the community.","ngäna","1.sg.nom","melem","work","ngämo","yes","no",NA
-"da","cl.poss","Kominiti da bo za da endag",NA,"kominiti","community","za","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Kominiti da bo za da endag",NA,"kominiti","community","za","thing","da bo","no",NA,NA
 "bo","3.sg.poss","Kominiti da bo za da endag",NA,"da","cl.poss","za","thing","bo","yes","no",NA
 "ngäma","1.excl.nsg.poss","Be sisri abo recognize alla o ge chip dan ge adingoll be ngattong ngäma masamasar a","But currently I can identify and adjust well to the Chieftain job which our ancestors did.","ngattong","first","masamasar","ancestors","ngäma","yes","no","kinship"
 "ngämo","1.sg.poss","Duya ngämo nadum Duya","Duiya who is also my namesake","duya","male personal name","nadum","namesake","ngämo","yes","no","kinship"
@@ -1398,7 +1398,7 @@
 "oba","3.nsg.poss","Ngäna era kamibi - ngäna era tämamae mällayaba bin di mällaem eran ngäna era ai ngäna oba oba ulle dan ngäna east transfly me mälla da ulleulle da tämamae erag naen 9 villages da tämamae","l am a representative for all the 9 villages in the east trans fly area for woman.","","","","","oba","yes","no",NA
 "oba","3.nsg.poss","Kinykiny Kondobol Bok Dämir Säbdir Malläm Llimoll Kuiwang ngäna era oba ulle mälla dan","I represent the villages Kinykiny, Kondobol, Bok, Dimiri, Sibidiri, Kuiwang, Mallam and Limol . l coordinate women's fellowships.","era","foc","ulle","big","oba","yes","no",NA
 "oba","3.nsg.poss","ngäna oba coordinator danän",NA,"ngäna","1.sg.nom","coordinator","","oba","yes","no",NA
-"da","cl.poss","LLG da bälle ge tämamae mälla de ngäna wa represent anggan angde ngämi meeting e gobllaballe Daru wi ngäna wa oba mit mi ekallan","I am the Morehead LLG's women's representative so in any meetings l speak for them.","llg","","mit","3.sg.dat","da bälle","no",NA,NA
+"da","cl.poss","LLG da bälle ge tämamae mälla de ngäna wa represent anggan angde ngämi meeting e gobllaballe Daru wi ngäna wa oba mit mi ekallan","I am the Morehead LLG's women's representative so in any meetings l speak for them.","llg","","mit","base","da bälle","no",NA,NA
 "oba","3.nsg.poss","LLG da bälle ge tämamae mälla de ngäna wa represent anggan angde ngämi meeting e gobllaballe Daru wi ngäna wa oba mit mi ekallan","I am the Morehead LLG's women's representative so in any meetings l speak for them.","wa","emph","mit","base","oba","yes","no",NA
 "oba","3.nsg.poss","ngäna gonyo tätäp a endag govment a mani domoenen anggan ede ge ada bisnis klekle ngasnen e ede ngäna wa bun allan ngäna wa ttägällkäp ngällbnän anggan ngäna tätäm ako ge dowatt a gongos ngäna ttägäll käp oba dikom ma llaeyabira sinen anggan mällayabira","I collect fundings from the government for the people. I bring the funds home and deliver to community for small scale business and church grants.","ttägäll käp","money","dikom","carry.rem.ven.1|2sgA>3plP","oba","yes","no",NA
 "iba","1.incl.nsg.poss","Ako ngäna ulle dan iba mäda bo eka panypenyang da ngäna","I am an elder, and witness for God our father.","","","mäda","father","iba","yes","no","kinship"
@@ -1730,7 +1730,7 @@
 "oba","3.nsg.poss","Ede däbe eka da oba llɨg aba pate gognegän",NA,"da","nom","llɨg","boy","oba","yes","no","kinship"
 "bo","3.sg.poss","Ngäna ngonomeny allan diba ngäta me ere klloklloe ami Ende eka de panypeny erallo ge Ende bo eka panypeny abal e bogo daden be ge ami ddone mermer panypeny erallo ngämo ngonongg alle ngäna ikop eran ere malla mer dan däbe",NA,"ende","language name","eka panypeny","speak","bo","yes","no",NA
 "ngämo","1.sg.poss","Ngäna ngonomeny allan diba ngäta me ere klloklloe ami Ende eka de panypeny erallo ge Ende bo eka panypeny abal e bogo daden be ge ami ddone mermer panypeny erallo ngämo ngonongg alle ngäna ikop eran ere malla mer dan däbe",NA,"","","ngonongg","remember","ngämo","yes","no",NA
-"da","cl.poss","Be imomdae Ende da bo eka panypeny eka kutt a tämamae erag däbe mermerae bäpanyaemneyo",NA,"ende","language name","eka panypeny","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Be imomdae Ende da bo eka panypeny eka kutt a tämamae erag däbe mermerae bäpanyaemneyo",NA,"ende","language name","eka panypeny","speak","da bo","no",NA,NA
 "bo","3.sg.poss","Be imomdae Ende da bo eka panypeny eka kutt a tämamae erag däbe mermerae bäpanyaemneyo",NA,"da","cl.poss","eka panypeny","speak","bo","yes","no",NA
 "ngäma","1.excl.nsg.poss","Ngäma mokowang abal eka da gänya Ende eka dan",NA,"bäpanyaemneyo","speak.fut.dur.3nsgA>3plP,","mokowang","love-att","ngäma","yes","no",NA
 "oba","3.nsg.poss","Adawatta ubi sisri skul mi dag oba skul bo muro da umäll a sisri tuk i kälngkäl eran oke ede däba umul alle de ubi mäzi English eka de ulle abal mokowang bägageyo mɨnyi",NA,"dag","cop.prs.plS","skul","school","oba","yes","no",NA
@@ -2541,7 +2541,7 @@
 "ngämo","1.sg.poss","Ngämo pollo täräp me ngäna gänyaolle yaran gänyme de ngäna mälla peyang agan","It is in my adolescent age that I came here and got married.","yaran","aux.rec.1|3sgA>du|1pl|2plP,","pollo","young","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Ngämo yae a baba oke be ngämo mändmändag mäg a daden Donae ngänäm bogo aeya damändän","My mother and father, okay but I do have a foster (step) mother, she is Donae. She adopted me.","agan","aux.rec.1|3sgS,","yae","mother","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Ngämo yae a baba oke be ngämo mändmändag mäg a daden Donae ngänäm bogo aeya damändän","My mother and father, okay but I do have a foster (step) mother, she is Donae. She adopted me.","be","but","mändmändag","raise-agt","ngämo","yes","no",NA
-"da","cl.poss","Ge ada dan a AC polis da bo ada dan ge ge da ada ami gonyo tärabol de bangeseyo da lla da bogäddnän da lla da bogäddnän","It's just like the AC Police has his job when people cause trouble or there is a fight.","polis","police","ada","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ge ada dan a AC polis da bo ada dan ge ge da ada ami gonyo tärabol de bangeseyo da lla da bogäddnän da lla da bogäddnän","It's just like the AC Police has his job when people cause trouble or there is a fight.","polis","police","ada","like this","da bo","no",NA,NA
 "bo","3.sg.poss","Ge ada dan a AC polis da bo ada dan ge ge da ada ami gonyo tärabol de bangeseyo da lla da bogäddnän da lla da bogäddnän","It's just like the AC Police has his job when people cause trouble or there is a fight.","da","cl.poss","ada","like this","bo","yes","no",NA
 "ngämo","1.sg.poss","Ngämo mabun a kämlla","My totem is the porcupine (anteater).","bogäddnän","fight.fut.dur.3sgS>refl,","mabun","clan","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Ngäna erem eka de panynen anggan ede malla malla ngäna do ulle watt dan ge ngämo lla da ero giddollnen eran ge Kurinti","As I am telling this story, I did not grow up where my relatives are in Kurunti","ge","this","lla","man","ngämo","yes","no","kinship"
@@ -2990,7 +2990,7 @@
 "ngämo","1.sg.poss","Ngämo bin a Kaso",NA,"e","all,","bin","name","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Ngämo ttongo ttongo bin a daden ngämo ge eraballa ddob a päzäpäzäg lla da allingoll ngämim ngänäm ada ttaem nallo",NA,"kaso","male personal name,","ttongo","a","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Ngämo ttongo ttongo bin a daden ngämo ge eraballa ddob a päzäpäzäg lla da allingoll ngämim ngänäm ada ttaem nallo",NA,"daden","cop.exist.prs.sgS","ge","this","ngämo","yes","no",NA
-"da","cl.poss","Päzäg päzäg päzäg da bo ttam ngalen alle de",NA,"päzäg","brother-in-law","ttam","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Päzäg päzäg päzäg da bo ttam ngalen alle de",NA,"päzäg","brother-in-law","ttam","life","da bo","no",NA,NA
 "bo","3.sg.poss","Päzäg päzäg päzäg da bo ttam ngalen alle de",NA,"da","cl.poss","ttam","life","bo","yes","no",NA
 "ngämo","1.sg.poss","Ao ge ada päzäg da da bogon ngämo bin ttam de mɨnyi ttongo ingollang dägawalle",NA,"","","bin","name","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Ngämo bin di",NA,"dägawalle","aux.rem.hab.sgA>3sgP,","bin","name","ngämo","yes","no",NA
@@ -3031,9 +3031,9 @@
 "oba","3.nsg.poss","Ende eka walle ddob täräp me oba any Källmeam eka walle ge any",NA,"me","loc","any","something","oba","yes","no",NA
 "ngämo","1.sg.poss","Ao ngämo kokok a daden",NA,"ao","yes","kokok","grandchildren","ngämo","yes","no","kinship"
 "ngämo","1.sg.poss","Eka da ngämo Ende",NA,"da","nom","ende","language name,","ngämo","yes","no",NA
-"da","cl.poss","Eka kutt de adamallo ada damasem dingällbänallo damesem dingällbänallo ede bogo ada erallo ako Ende da bo panypeny a adingoll dan",NA,"ende","language name","panypeny","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Eka kutt de adamallo ada damasem dingällbänallo damesem dingällbänallo ede bogo ada erallo ako Ende da bo panypeny a adingoll dan",NA,"ende","language name","panypeny","speak","da bo","no",NA,NA
 "bo","3.sg.poss","Eka kutt de adamallo ada damasem dingällbänallo damesem dingällbänallo ede bogo ada erallo ako Ende da bo panypeny a adingoll dan",NA,"da","cl.poss","panypeny","speak","bo","yes","no",NA
-"da","cl.poss","Ende eka da bo panypeny ngalen ddob eka kutt e zazer erallo",NA,"eka","speak","panypeny","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ende eka da bo panypeny ngalen ddob eka kutt e zazer erallo",NA,"eka","speak","panypeny","speak","da bo","no",NA,NA
 "bo","3.sg.poss","Ende eka da bo panypeny ngalen ddob eka kutt e zazer erallo",NA,"da","cl.poss","panypeny","speak","bo","yes","no",NA
 "bo","3.sg.poss","Gänya ge ngämzaga bo eka da era Ende eka dan",NA,"ngämzaga","","eka","speak","bo","yes","no",NA
 "ngämo","1.sg.poss","Ngäna tätäm ma meae daeya ngämo sabat deya tätäm",NA,"","","sabat","Sabbath","ngämo","yes","no",NA
@@ -3229,7 +3229,7 @@
 "obo","3.sg.poss","Oke ngämo obo mabun a kame dan",NA,"ngämo","1.sg.poss","mabun","clan","obo","yes","no",NA
 "ngämo","1.sg.poss","Oke be ngämo obo klan grup de däbe umllang dan Igigil da bälle mabun abaene daden de do",NA,"be","but","obo","3.sg.poss","ngämo","yes","no",NA
 "obo","3.sg.poss","Oke be ngämo obo klan grup de däbe umllang dan Igigil da bälle mabun abaene daden de do",NA,"ngämo","1.sg.poss","klan","clan","obo","yes","no",NA
-"da","cl.poss","Oke be ngämo obo klan grup de däbe umllang dan Igigil da bälle mabun abaene daden de do",NA,"igigil","","daden","3.sg.dat","da bälle","no",NA,NA
+"da","cl.poss","Oke be ngämo obo klan grup de däbe umllang dan Igigil da bälle mabun abaene daden de do",NA,"igigil","","daden","cop.exist.prs.sgS","da bälle","no",NA,NA
 "abaene","3.nsg.pst.poss","Oke be ngämo obo klan grup de däbe umllang dan Igigil da bälle mabun abaene daden de do",NA,"mabun","clan","daden","cop.exist.prs.sgS","abaene","yes","yes",NA
 "obo","3.sg.poss","Amo obo mabun a kame dan",NA,"amo","whom","mabun","clan","obo","yes","no",NA
 "ngämo","1.sg.poss","Ngämo mälla bo",NA,"dan","cop.prs.sgS,","mälla","woman","ngämo","yes","no","kinship"
@@ -3350,7 +3350,7 @@
 "ngäma","1.excl.nsg.poss","Ngämo mälla - ngämo mälla da - ngäma mälla da obo eka panynen a obo ttoen ngasnen a","My wife is my spouse who speaks and does things.","-","","mälla","woman","ngäma","yes","no","kinship"
 "obo","3.sg.poss","Ngämo mälla - ngämo mälla da - ngäma mälla da obo eka panynen a obo ttoen ngasnen a","My wife is my spouse who speaks and does things.","","","eka","speak","obo","yes","no",NA
 "obo","3.sg.poss","Ngämo mälla - ngämo mälla da - ngäma mälla da obo eka panynen a obo ttoen ngasnen a","My wife is my spouse who speaks and does things.","a","nom","ttoen","way","obo","yes","no",NA
-"da","cl.poss","Ende - Ende da bo ngalen me eka panynen a Ende eka walle a tämamae ttoen bällam a","Ende, in Ende style of communication and doing things.","ende","language name","ngalen","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ende - Ende da bo ngalen me eka panynen a Ende eka walle a tämamae ttoen bällam a","Ende, in Ende style of communication and doing things.","ende","language name","ngalen","way","da bo","no",NA,NA
 "bo","3.sg.poss","Ende - Ende da bo ngalen me eka panynen a Ende eka walle a tämamae ttoen bällam a","Ende, in Ende style of communication and doing things.","da","cl.poss","ngalen","way","bo","yes","no",NA
 "ngämo","1.sg.poss","ngämo mälla da ai dan bangesnegän bäpanynegän eka de o ngasnen alle bangesnegän","My wife can do things or say things as she does them.","a","nom","mälla","woman","ngämo","yes","no","kinship"
 "ngäma","1.excl.nsg.poss","Ngäma masar eka da ada dan ada bongo erang peyang dawag erang nälläd","Our custom says if you have an exchange girl then you will get married.","bangesnegän","do.fut.3sgA>3plP,","masar","grandfather","ngäma","yes","no","kinship"
@@ -3820,9 +3820,9 @@
 "obaene","3.nsg.pst.poss","Ngäna umllang nägnan Wendi a Lulu obaene eka de dowattäm Daru watt","I was telling her the message from Wendy and Lulu in Daru.","lulu","female personal name","eka","speak","obaene","yes","yes",NA
 "ngämo","1.sg.poss","Oke ngämo pope ako nallan Bewag","Okay my uncle Bewag went.","oke","okay","pope","uncle","ngämo","yes","no","kinship"
 "ngämo","1.sg.poss","Ngämo pope Bewag nallan","My uncle Bewag went.","bewag","male personal name","pope","uncle","ngämo","yes","no","kinship"
-"da","cl.poss","Ngäna llɨg kälsre da bälle loli da wa choklet a däbe nägazan botol a yawo eka nandmoeyan","I took out the small boy's lollies and chocolate in the bottle and sent my farewell message.","kälsre","small","yawo","3.sg.dat","da bälle","no",NA,NA
+"da","cl.poss","Ngäna llɨg kälsre da bälle loli da wa choklet a däbe nägazan botol a yawo eka nandmoeyan","I took out the small boy's lollies and chocolate in the bottle and sent my farewell message.","kälsre","small","yawo","","da bälle","no",NA,NA
 "ngämo","1.sg.poss","Ngämo yawo eka da llɨg kälsre da bälle","My farewell to the child.","nandmoeyan","send.rec.1|3sgA>sgP,","yawo","","ngämo","yes","no",NA
-"da","cl.poss","Ngämo yawo eka da llɨg kälsre da bälle","My farewell to the child.","kälsre","small","ma","3.sg.dat,","da bälle","no",NA,NA
+"da","cl.poss","Ngämo yawo eka da llɨg kälsre da bälle","My farewell to the child.","kälsre","small","ma","house","da bälle","no",NA,NA
 "bo","3.sg.poss","Ine ma Kaoga bo ma obo mälla mälla da llɨg a dädme okokol nägnegan ngäna","Water at Kaoga's house, I greeted and embraced his wife and children","kaoga","male personal name","ma","house","bo","yes","no",NA
 "obo","3.sg.poss","Ine ma Kaoga bo ma obo mälla mälla da llɨg a dädme okokol nägnegan ngäna","Water at Kaoga's house, I greeted and embraced his wife and children","","","mälla","woman","obo","yes","no","kinship"
 "bo","3.sg.poss","Nallan daolle Suliki bo ma mälla da ngänäm ine kutt peyang ikop nagan bodo obo ine kutt a män kälsre da komlla","I walked past to Suliki's house, his wife saw me with water containers so she too gave containers to two of her little daughters.","suliki","male personal name","ma","house","bo","yes","no",NA
@@ -3895,7 +3895,7 @@
 "ngämo","1.sg.poss","Ngäna ngämo greid kandärmang",NA,"ngäna","1.sg.nom","greid","grade","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Ngäna ngämo skul di Awaba me dättemän greid tuwelb de",NA,"ngäna","1.sg.nom","skul","school","ngämo","yes","no",NA
 "iba","1.incl.nsg.poss","Iba eka walle",NA,"de","acc,","eka","speak","iba","yes","no",NA
-"da","cl.poss","Weld bisen me tibi tibi da bo melem e muramura de basinegnän llaeyabira tibi itrell peyang a ami dag",NA,"tibi","TB","melem","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Weld bisen me tibi tibi da bo melem e muramura de basinegnän llaeyabira tibi itrell peyang a ami dag",NA,"tibi","TB","melem","work","da bo","no",NA,NA
 "bo","3.sg.poss","Weld bisen me tibi tibi da bo melem e muramura de basinegnän llaeyabira tibi itrell peyang a ami dag",NA,"da","cl.poss","melem","work","bo","yes","no",NA
 "ngämo","1.sg.poss","Ngämlle ma da ddone dan be ngäna ngämo nane bo peyang giddollnen allan",NA,"ngäna","1.sg.nom","nane","drink","ngämo","yes","no","kinship"
 "llaeyabaene","person-3.nsg.pst.poss","Bogo mam ngällbänang dan llaeyabaene",NA,"dan","cop.prs.sgS","ngämo","1.sg.poss","abaene","yes","yes",NA
@@ -4853,7 +4853,7 @@
 "bo","3.sg.poss","Bongo era Adi bo llɨg dan","YOU are the son of God (era as focus). [WWK 20171004]","adi","God","llɨg","boy","bo","yes","no","kinship"
 "nagda","friend=cl.poss.kin","Nagda bo llan a ulle abal dan","His friend's ears are really big. [WWK 20171004]","dan","cop.prs.sgS,","bo","3.sg.poss","da","no",NA,NA
 "bo","3.sg.poss","Nagda bo llan a ulle abal dan","His friend's ears are really big. [WWK 20171004]","nagda","friend=cl.poss.kin","llan","ear","bo","yes","no","part_whole"
-"da","cl.poss","Ine kutt da bo lid a popang dan","The water container's lid has a hole. [WWK 20171004]","ine kutt","bucket","lid","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ine kutt da bo lid a popang dan","The water container's lid has a hole. [WWK 20171004]","ine kutt","bucket","lid","","da bo","no",NA,NA
 "bo","3.sg.poss","Ine kutt da bo lid a popang dan","The water container's lid has a hole. [WWK 20171004]","da","cl.poss","lid","","bo","yes","no",NA
 "bäne","2.sg.poss","Ngäna bäne bablle toboll de nänglläbänan","I got you your spear. [WWK 20171004]","ngäna","1.sg.nom","","","bäne (2)","yes","no",NA
 "bäne","2.sg.poss","Ngäna oblle bäne toboll de nänglläbänan","I got him your spear. [WWK 20171004]","oblle","3.sg.dat","toboll","arrow","bäne (2)","yes","no",NA
@@ -5127,7 +5127,7 @@
 "ngämo","1.sg.poss","Ngäna ngämo llan de era yatärpänan","\""I cut my ears.\""","ngäna","1.sg.nom","llan","ear","ngämo","yes","no","part_whole"
 "obo","3.sg.poss","Baet obo moko da eraeya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a alla ingollang gogeyo","Cuscus also wanted his ears to look like this how his friend Dog's ears were looking.","eraeya","cop.where.pst.sgS","llan","ear","obo","yes","no","part_whole"
 "obo","3.sg.poss","Baet obo moko da eraeya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a alla ingollang gogeyo","Cuscus also wanted his ears to look like this how his friend Dog's ears were looking.","ge","this","kapera","relation type","obo","yes","no",NA
-"da","cl.poss","Baet obo moko da eraeya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a alla ingollang gogeyo","Cuscus also wanted his ears to look like this how his friend Dog's ears were looking.","däräng","dog","llan","3.sg.poss","da bo","no",NA,"part_whole"
+"da","cl.poss","Baet obo moko da eraeya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a alla ingollang gogeyo","Cuscus also wanted his ears to look like this how his friend Dog's ears were looking.","däräng","dog","llan","ear","da bo","no",NA,"part_whole"
 "bo","3.sg.poss","Baet obo moko da eraeya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a alla ingollang gogeyo","Cuscus also wanted his ears to look like this how his friend Dog's ears were looking.","da","cl.poss","llan","ear","bo","yes","no","part_whole"
 "nagda","friend=cl.poss.kin","Dibaballe Däräng käsre nagda Baet bom ada dägagän","Afterwards, Dog said to his friend Cuscus,","käsre","then","baet","cuscus","da","no",NA,NA
 "nagda","friend=cl.poss.kin","Käsre ada ka ada ka gänyaolle nagda Baet bo llan de täräpnan anggan","Then, he cut his friend Cuscus's ears.","gänyaolle","here=all","baet","cuscus","da","no",NA,NA
@@ -5149,7 +5149,7 @@
 "ngäma","1.excl.nsg.poss","Ngämi ngäma bägäl a wa toboll a danserbeaebeya a däpllätt abo do Taolang gall tapma","We prepared our bows and spears and set off to Taolang canoe place.","ngämi","1.excl.nsg.nom","bägäl","bow","ngäma","yes","no",NA
 "aba","3.nsg.poss","Kui i ngämi dälltam a six llɨg a po we gobällän daolle ddäddäg aba gäbnan ma da era erae dagaeya","We arrived at the island, and six young men went over there to block the animals where they jump.","ddäddäg","animal","gäbnan","jump-pl","aba","yes","no",NA
 "abaene","3.nsg.pst.poss","Diba mamoe makäp me ngämi misde ddäddäg abaene towall llällam emae llandräg gogaebne","When we were hunting, we were just listening for the rustling of the animals in the grass.","ddäddäg","animal","towall","grass","abaene","yes","yes",NA
-"da","cl.poss","Däbe ddia da ttongo llɨg da bo pate gongttägän a bogo tikop abal me dazuwän","That deer went towards one young man and he shot him in the heart.","llɨg","boy","pemli","3.sg.poss","da bo","no",NA,"kinship"
+"da","cl.poss","Däbe ddia da ttongo llɨg da bo pate gongttägän a bogo tikop abal me dazuwän","That deer went towards one young man and he shot him in the heart.","llɨg","boy","pemli","family","da bo","no",NA,"kinship"
 "ngäma","1.excl.nsg.poss","Diba toto we ngäma pemli aba peyang ngämi mer duwem de dägaeya adawatta ddia da däbe ddobae gi daeya","That evening, my family ate really well because that deer was very greasy.","we","all","pemli","family","ngäma","yes","no","kinship"
 "auseda","old.woman=cl.poss.kin","Auseda bo llɨg kälsre da ngäna de gongkamän","The old woman's little boy started to cry.","daeya","cop.pst.sgS,","bo","3.sg.poss","da","no",NA,NA
 "bo","3.sg.poss","Auseda bo llɨg kälsre da ngäna de gongkamän","The old woman's little boy started to cry.","auseda","old.woman=cl.poss.kin","llɨg","boy","bo","yes","no","kinship"
@@ -5202,13 +5202,13 @@
 "abaene","3.nsg.pst.poss","Lla llɨg a angde dandärmom mänmän abaene gogäle de ubi gotäbamom mänmän abira gäddnan e","When the boys heard the sound of the girls, they planned to go beat the girls.","mänmän","girls","gogäle","plenty noise","abaene","yes","yes",NA
 "ngäma","1.excl.nsg.poss","Ngäma ttoenttoen dan","This is our story.","e","all,","ttoenttoen","small story","ngäma","yes","no",NA
 "llayaba","person=3.nsg.poss","Ende llayaba ttoenttoen dan","This is Ende people's story.","ende","what","ttoenttoen","small story","aba","yes","no",NA
-"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","","","da bo","no",NA,NA
 "bo","3.sg.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","da","cl.poss","","","bo","yes","no",NA
-"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","gänyan","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","da","cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
-"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","gänyan","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","da","cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
-"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","gänyan","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","ttongo","a","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Däbe abo dakdaeballo ada ttongo da bo ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo","Then they split it up like this, one person's is here, one person's is here, one person's is here, until everyone had their share.","da","cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
 "bo","3.sg.poss","Bobzag tän bo ttoenttoen","Crocodile clan story","tän","tribe","ttoenttoen","small story","bo","yes","no",NA
 "bo","3.sg.poss","Käza bo tawar a Käza bo tawar a eragaeya any dagaeya kuku da ttalme de o kitar a","Crocodile's tawar were these thingsː kuku grass, ttalme grass, and kitar grass.","käza","crocodile","tawar","mark","bo","yes","no",NA
@@ -5292,10 +5292,10 @@
 "llabunda","relative=cl.poss.kin","Llabunda bi llollo e gobllaballe kandärmang ngänaeka peyang dälltamalle","Relatives will hear the conch shell and come and will be crying when they arrive.","eran","aux.prs.1|3sgA>3sgP,","bi","3.nsg.nom","da","no",NA,NA
 "obo","3.sg.poss","Däbe lla da mɨnyi obo känyär kuddäll pätt de bampägmenynän","That man will protect the body by himself.","mɨnyi","fut","känyär","quiet","obo","yes","no",NA
 "obo","3.sg.poss","Angde obo täräp a ngäs e dällädalle bogo mɨnyi doalle olle gogalle do lla gulag aba pate","When the time comes for him to return, he will call out to the crowd of people.","angde","when","täräp","time","obo","yes","no",NA
-"da","cl.poss","Täräb a era kuddäll lla da bäne za dan","Täräb is the dead person's belongings.","lla","man","za","3.sg.pst.poss","da bäne","no",NA,NA
+"da","cl.poss","Täräb a era kuddäll lla da bäne za dan","Täräb is the dead person's belongings.","lla","man","za","thing","da bäne","no",NA,NA
 "bäne","3.sg.pst.poss","Täräb a era kuddäll lla da bäne za dan","Täräb is the dead person's belongings.","da","cl.poss","za","thing","bäne","yes","yes",NA
 "llabunda","relative=cl.poss.kin","A eka de umllang dägnegalle llabunda bim ge bogo tärämpmeny me ttoen de umllang agan","He will tell the relatives what he learned in the night.","dägnegalle","aux.rem.hab.sgA>3plP","bim","3.nsg.acc","da","no",NA,NA
-"da","cl.poss","Lla da angde täre de dägagallo däbe yebdo me kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a ttäll täl de dämpäddmenyaemallo","On the day of the feast, people will burn the dead person's house and some of his things, and will throw in bamboo which will blow up.","lla","man","ma","3.sg.pst.poss","da bäne","no",NA,NA
+"da","cl.poss","Lla da angde täre de dägagallo däbe yebdo me kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a ttäll täl de dämpäddmenyaemallo","On the day of the feast, people will burn the dead person's house and some of his things, and will throw in bamboo which will blow up.","lla","man","ma","house","da bäne","no",NA,NA
 "bäne","3.sg.pst.poss","Lla da angde täre de dägagallo däbe yebdo me kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a ttäll täl de dämpäddmenyaemallo","On the day of the feast, people will burn the dead person's house and some of his things, and will throw in bamboo which will blow up.","da","cl.poss","ma","house","bäne","yes","yes",NA
 "ngäma","1.excl.nsg.poss","Ngämi ngäma bägäl a wa tobäll a danserbeaebeya a ngämi abo däpllätt do Taolang gall tapma","We prepared our bows and spears and set off for Taolang canoe place.","ngämi","1.excl.nsg.nom","bägäl","bow","ngäma","yes","no",NA
 "aba","3.nsg.poss","Ngämi angde dälltam kumuddäga kumuddäga llɨg a ngattong gobällän po we daolle ge ddäddäg aba gäbnan ma dae erae dagaeya","When we arrived, six young man went first to block the place where the animals jump.","ddäddäg","animal","gäbnan","jump-pl","aba","yes","no",NA
@@ -5781,7 +5781,7 @@
 "obäne","3.sg.pst.poss","JJD Ede alla obäne gudne eka de llɨtnen eran",NA,"alla","how","gudne","old","obene","yes","yes",NA
 "obäne","3.sg.pst.poss","DSS Ede ede da eka de däbe llɨtnen eran obäne allingollang bogo",NA,"eran","aux.prs.1|3sgA>3sgP","allingollang","how-like-att","obene","yes","yes",NA
 "obo","3.sg.poss","DSS obo ngasngesatt ttoen a eragaeya däba ngalen JJD däba ngalen dagirnän DSS ere ede abo gänyagänyeri gänya enddäna eran abo JJD ngasa ada ngäna mɨnyi llätt bogo ada giddoll a",NA,"","","ngasngesatt","make-abl","obo","yes","no",NA
-"da","cl.poss","JJD Ge lla da bäne eka da obo ge lla da ngonomeny allan",NA,"lla","man","eka","3.sg.pst.poss","da bäne","no",NA,NA
+"da","cl.poss","JJD Ge lla da bäne eka da obo ge lla da ngonomeny allan",NA,"lla","man","eka","speak","da bäne","no",NA,NA
 "bäne","3.sg.pst.poss","JJD Ge lla da bäne eka da obo ge lla da ngonomeny allan",NA,"da","cl.poss","eka","speak","bäne","yes","yes",NA
 "obo","3.sg.poss","JJD Ge lla da bäne eka da obo ge lla da ngonomeny allan",NA,"","","","","obo","yes","no",NA
 "llɨgda","child=cl.poss.kin","JJD Ge ngasa llɨgda waenen",NA,"ngasa","maybe","waenen","cop.who.prs.sgS,","da","no",NA,NA
@@ -6160,21 +6160,21 @@
 "oba","3.nsg.poss","do oba kemp e gongttägeya Babaze bi dedme dagaeya","a camping place, we arrived where Babaze were staying.","do","there","kemp","camp","oba","yes","no",NA
 "oba","3.nsg.poss","Oba eka walle ada","In their language they say,","dagaeya","cop.pst.plS,","eka","speak","oba","yes","no",NA
 "bo","3.sg.poss","Sasa bo llɨg deya","Sasa's son.","sasa","female personal name","llɨg","boy","bo","yes","no","kinship"
-"da","cl.poss","Käsre däba llɨg da bo bakmall","We went all together with that boy.","llɨg","boy","oba","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Käsre däba llɨg da bo bakmall","We went all together with that boy.","llɨg","boy","oba","3.nsg.poss","da bo","no",NA,NA
 "oba","3.nsg.poss,","Bapällkaemaemeya da oba","We will divide them into groups, theirs","da","cop.prs.sgS","oba","3.nsg.poss","oba","yes","no",NA
 "oba","3.nsg.poss","oba Wainum bi","Wainum's","oba","3.nsg.poss,","wainum","female personal name","oba","yes","no",NA
 "oba","3.nsg.poss","Ddobag bira oba tenten dowattällnalla",NA,"bira","3.nsg.dat","tenten","ten","oba","yes","no",NA
-"da","cl.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","lla","man","ten","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","lla","man","ten","ten","da bo","no",NA,NA
 "bo","3.sg.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","da","cl.poss","ten","ten","bo","yes","no",NA
-"da","cl.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","lla","man","ten","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","lla","man","ten","ten","da bo","no",NA,NA
 "bo","3.sg.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","da","cl.poss","ten","ten","bo","yes","no",NA
-"da","cl.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","lla","man","ten","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","lla","man","ten","ten","da bo","no",NA,NA
 "bo","3.sg.poss","Ttongo lla da bo ten ttongo lla da bo ten ttongo lla da bo ten ten tum ten tum","We put them in piles of ten. Ten for one person, ten for another person, ten for another person, heaps of ten.","da","cl.poss","ten","ten","bo","yes","no",NA
 "ngäma","1.excl.nsg.poss","A ngäma Senti alle erag","And mine and Senti's were there.","a","and","senti","male personal name","ngäma","yes","no",NA
 "ngämo","1.sg.poss","Ngämi deyareya ge ngäna dalle ngämo thirty","We went and I took thirty for myself.","dalle","go.rem.1|2sgS","thirty",",","ngämo","yes","no",NA
 "ngämo","1.sg.poss","Thirty wayati dowattäll ngämo said me","Thirty watermelons on my side.","dowattäll","leave.pl.rem.1|2sgA>3plP","said","side","ngämo","yes","no",NA
 "bo","3.sg.poss","Senti bo ade thirty","Thirty for Senti too.","senti","male personal name","ade","also","bo","yes","no",NA
-"da","cl.poss","De llɨg kälsre da bo ngasa eighteen o","That small boy, maybe eighteen","kälsre","small","ngasa","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","De llɨg kälsre da bo ngasa eighteen o","That small boy, maybe eighteen","kälsre","small","ngasa","maybe","da bo","no",NA,NA
 "bo","3.sg.poss","De llɨg kälsre da bo ngasa eighteen o","That small boy, maybe eighteen","da","cl.poss","ngasa","maybe","bo","yes","no",NA
 "ngämo","1.sg.poss","Ngäna Nowar Ngämo wayati kongkom e nalle","I told Nowar, \""Go carry my watermelons.\""","","","wayati","melon","ngämo","yes","no",NA
 "oba","3.nsg.poss","Kandärmang tum a gudae ada oba de dänyeneyo duli","Oh sorry, heaps and heaps they shared them there.","ada","like this","de","acc","oba","yes","no",NA
@@ -6216,18 +6216,18 @@
 "ngäma","1.excl.nsg.poss","wan pinga da ada raba da daibing glas a sop a giri da ngäma wätät a","one finger [long thin metal spike with sharp point, foot-long], rubber, diving goggles, soap, knife and our food.","","","wätät","food","ngäma","yes","no",NA
 "ngäma","1.excl.nsg.poss","Dedme gotaram gudae ag me mängalae ngäma sana de yu dägaebeya",NA,"mängalae","quickly","sana","sago","ngäma","yes","no",NA
 "ngäma","1.excl.nsg.poss","Ngämi kumuddäga ade ngäma gonyemenyam","The three of us also had our share.","ade","also","gonyemenyam","share.rem.dur.1|2plS,","ngäma","yes","no",NA
-"da","cl.poss","Ge Ende Ge Ende da bo Ende eka da bo mit eka dan","This is the origin of Ende language.","ende","what","","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ge Ende Ge Ende da bo Ende eka da bo mit eka dan","This is the origin of Ende language.","ende","what","","","da bo","no",NA,NA
 "bo","3.sg.poss","Ge Ende Ge Ende da bo Ende eka da bo mit eka dan","This is the origin of Ende language.","da","cl.poss","","","bo","yes","no",NA
-"da","cl.poss","Ge Ende Ge Ende da bo Ende eka da bo mit eka dan","This is the origin of Ende language.","eka","language","mit","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ge Ende Ge Ende da bo Ende eka da bo mit eka dan","This is the origin of Ende language.","eka","language","mit","source","da bo","no",NA,NA
 "bo","3.sg.poss","Ge Ende Ge Ende da bo Ende eka da bo mit eka dan","This is the origin of Ende language.","da","cl.poss","mit","source","bo","yes","no",NA
 "bo","3.sg.poss","Ende eka bo mit adada gongkamän","The origin of Ende language started like this.","eka","language","mit","source","bo","yes","no",NA
 "bo","3.sg.poss","Däbe tawe mit mi komlla tawe mit mi pall a gogo da komlla za da deyagerneyo ade eka bo ddäma dagweya ali","At the base of the pall and gogo tawe palms were two word wombsː conch shells.","eka","language","ddäma","uterus","bo","yes","no",NA
-"da","cl.poss","Ada gogo da bo ali da obo eka da gänyeya Ende","The gogo tawe palm tree's conch shell was Ende language.","gogo","green palm","ali","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ada gogo da bo ali da obo eka da gänyeya Ende","The gogo tawe palm tree's conch shell was Ende language.","gogo","green palm","ali","conch shell","da bo","no",NA,NA
 "bo","3.sg.poss","Ada gogo da bo ali da obo eka da gänyeya Ende","The gogo tawe palm tree's conch shell was Ende language.","da","cl.poss","ali","conch shell","bo","yes","no",NA
 "obo","3.sg.poss","Ada gogo da bo ali da obo eka da gänyeya Ende","The gogo tawe palm tree's conch shell was Ende language.","da","nom","eka","language","obo","yes","no",NA
-"da","cl.poss","Pall da bo Pall tawe da bo obo eka mit a gänyeya Agob","The pall tawe palm tree's conch shell was Agob language.","pall","red palm","","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Pall da bo Pall tawe da bo obo eka mit a gänyeya Agob","The pall tawe palm tree's conch shell was Agob language.","pall","red palm","","","da bo","no",NA,NA
 "bo","3.sg.poss","Pall da bo Pall tawe da bo obo eka mit a gänyeya Agob","The pall tawe palm tree's conch shell was Agob language.","da","cl.poss","","","bo","yes","no",NA
-"da","cl.poss","Pall da bo Pall tawe da bo obo eka mit a gänyeya Agob","The pall tawe palm tree's conch shell was Agob language.","tawe","palm type","","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Pall da bo Pall tawe da bo obo eka mit a gänyeya Agob","The pall tawe palm tree's conch shell was Agob language.","tawe","palm type","","","da bo","no",NA,NA
 "bo","3.sg.poss","Pall da bo Pall tawe da bo obo eka mit a gänyeya Agob","The pall tawe palm tree's conch shell was Agob language.","da","cl.poss","","","bo","yes","no",NA
 "obo","3.sg.poss","Pall da bo Pall tawe da bo obo eka mit a gänyeya Agob","The pall tawe palm tree's conch shell was Agob language.","","","eka","language","obo","yes","no",NA
 "oba","3.nsg.poss","Ge gogo tawe de eraeya dibaolle eka zizag lla da oba bin a gänya Ginarang","At the gogo tawe palm, was the owner of the language, his name was Ginarang.","da","nom","bin","name","oba","yes","no",NA
@@ -6707,13 +6707,13 @@
 "mägda","mother=cl.poss.kin","YSK Ubim umllang anggan mägda wa llɨg da",NA,"","","wa","and","da","no",NA,NA
 "obo","3.sg.poss","YSK deyagerneyo obo mälla da obo llɨg a gullbe ubi llame dazernän llame ubi abo gänya ttängäm e yarallo",NA,"deyagerneyo","live.rem.dur.3duS","mälla","woman","obo","yes","no","kinship"
 "obo","3.sg.poss","YSK deyagerneyo obo mälla da obo llɨg a gullbe ubi llame dazernän llame ubi abo gänya ttängäm e yarallo",NA,"","","llɨg","boy","obo","yes","no","kinship"
-"da","cl.poss","YSK wätät de komnen anggallo bogo ddob otät e bogo ddob oke llɨg kälsre da bo",NA,"kälsre","small","oke","3.sg.poss,","da bo","no",NA,NA
+"da","cl.poss","YSK wätät de komnen anggallo bogo ddob otät e bogo ddob oke llɨg kälsre da bo",NA,"kälsre","small","oke","okay","da bo","no",NA,NA
 "bo","3.sg.poss,","YSK wätät de komnen anggallo bogo ddob otät e bogo ddob oke llɨg kälsre da bo",NA,"da","cl.poss","oke","okay","bo","yes","no",NA
 "obo","3.sg.poss","Oke bogo ge obo otät de pänggmeny anggan",NA,"ge","this","otät","food","obo","yes","no",NA
 "oba","3.nsg.poss","J Lla ikop D Anykeanyke da J Ge lla da anykeanyke oba ikop",NA,"anykeanyke","picture","ikop","see","oba","yes","no",NA
 "obo","3.sg.poss","JJD Ge lla da obo stori dan oba da mɨnyi bogon ge ge lla da bo eka dan",NA,"","","stori","story","obo","yes","no",NA
 "oba","3.nsg.poss","JJD Ge lla da obo stori dan oba da mɨnyi bogon ge ge lla da bo eka dan",NA,"","","da","nom","oba","yes","no",NA
-"da","cl.poss","JJD Ge lla da obo stori dan oba da mɨnyi bogon ge ge lla da bo eka dan",NA,"lla","man","eka","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","JJD Ge lla da obo stori dan oba da mɨnyi bogon ge ge lla da bo eka dan",NA,"lla","man","eka","speak","da bo","no",NA,NA
 "bo","3.sg.poss","JJD Ge lla da obo stori dan oba da mɨnyi bogon ge ge lla da bo eka dan",NA,"da","cl.poss","eka","speak","bo","yes","no",NA
 "obo","3.sg.poss","JJD Ngase gem bägaeya ngattong adingoll ade ge lla da DSS ngonomeny allan JJD ngasa dagernän ngonomeny a obo ilingollang dagaeya",NA,"a","nom","ilingollang","","obo","yes","no",NA
 "obo","3.sg.poss","JJD Obo alle bängkameya daballe",NA,"","","alle","ins","obo","yes","no",NA
@@ -6761,13 +6761,13 @@
 "llaeyaba","person=3.nsg.poss","Ende llaeyaba ttoenttoen",NA,"ende","what","ttoenttoen","small story,","aba","yes","no",NA
 "ngäma","1.excl.nsg.poss","Ngäma ttoen dan",NA,"ttoenttoen","small story,","ttoen","way","ngäma","yes","no",NA
 "ngäma","1.excl.nsg.poss","Ngäma ttoen dan","It is our story. Ende people's story. Our story. It's a garden story. Our story.","dan","cop.prs.sgS,","ttoen","way","ngäma","yes","no",NA
-"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","ada","like this","gänyan","3.sg.poss","da bo","no",NA,NA
+"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","ada","like this","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","ttongda","one-cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
-"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","","","gänyan","3.sg.poss","da bo","no",NA,NA
+"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","","","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","ttongda","one-cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
-"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","","","gänyan","3.sg.poss","da bo","no",NA,NA
+"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","","","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","ttongda","one-cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
-"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","","","gänyan","3.sg.poss","da bo","no",NA,NA
+"ttongda","one-cl.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","","","gänyan","cop.here.prs.sgS,","da bo","no",NA,NA
 "bo","3.sg.poss","Dakdaeballo ttängäm de lla bin peyangae ada ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan ttongda bo gänyan","No one will be left in the village. They will put boundaries with all the people's names, one will go here, one will go here, one will go here, one will go here.","ttongda","one-cl.poss","gänyan","cop.here.prs.sgS,","bo","yes","no",NA
 "ngämo","1.sg.poss","A era otät da ai agan O ngämo galbe da ai agan galbe da gany e dan","and the food that is growing well, \""oh my purple yam is growing well, I will plant a yam stick.\""","o","oh","galbe","yam type","ngämo","yes","no",NA
 "iba","1.incl.nsg.poss","Story a iba gänyaya","she will tie those yams and start dancing. This was our story.","a","nom","gänyaya","cop.here.pst.sgS,","iba","yes","no",NA
@@ -6804,11 +6804,11 @@
 "obo","3.sg.poss","Dallän obo ttängäm e","She went to her garden.","dallän","go.rem.3sgS","ttängäm","place","obo","yes","no",NA
 "obo","3.sg.poss","Bie da manika da nae a däbe obo ttängäm atta dollän dikomän","She harvested taro, cassava, and sweet potato from her garden and brought them back.","däbe","that.nom","ttängäm","place","obo","yes","no",NA
 "obo","3.sg.poss","Sɨmell sisiang a obo ereya däbem däbäddän","She killed her tame pig.","a","nom","ereya","cop.where.pst.sgS","obo","yes","no",NA
-"da","cl.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","mänyan","younger sibling","","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","mänyan","younger sibling","","","da bo","no",NA,NA
 "bo","3.sg.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","da","cl.poss","","","bo","yes","no",NA
-"da","cl.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","mänyan","younger sibling","","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","mänyan","younger sibling","","","da bo","no",NA,NA
 "bo","3.sg.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","da","cl.poss","","","bo","yes","no",NA
-"da","cl.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","mänyan","younger sibling","","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","mänyan","younger sibling","","","da bo","no",NA,NA
 "bo","3.sg.poss","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","da","cl.poss","","","bo","yes","no",NA
 "obo","3.sg.poss,","Ada ttongo aya mänyan da bo ako ttongo aya mänyan da bo ako ttongo aya mänyan da bo enanae särapipi da ereya obo","One for her younger sister, one for her next youngest, one for her next youngest, and finally for the last born.","ereya","cop.where.pst.sgS","sɨmell","pig","obo","yes","no",NA
 "ba","3.nsg.poss,","Sɨmell de täräp dägagän däbe komllaebme komllaebme mänmän a erageya mänyan da ba","She split the pig up for her four sisters.","da","nom","bogo","3.sg.nom","ba","yes","no",NA
@@ -6870,7 +6870,7 @@
 "obo","3.sg.poss","Penongg e angde deyareyo bogo llamda obo da pite da alläp a banggu da däbe dokomän","They went. When they went to burn, the old man carried his grass skirt, his drum, his headdress.","llamda","old man","da","nom","obo","yes","no",NA
 "da","cl.poss.kin","Dengnän do dänya go gogon gogon gogon yu a dallän dallän dallän llamda da bo llamda da mäse dengnän ge kandärmang yu da daollemae","He danced and danced, the fire got closer and closer, the old man just danced, and sorry the fire just got closer.","llamda","old man","bo","3.sg.poss","da","no",NA,"kinship"
 "bo","3.sg.poss","Dengnän do dänya go gogon gogon gogon yu a dallän dallän dallän llamda da bo llamda da mäse dengnän ge kandärmang yu da daollemae","He danced and danced, the fire got closer and closer, the old man just danced, and sorry the fire just got closer.","da","cl.poss.kin","","","bo","yes","no",NA
-"da","cl.poss","Llamda da bälle gazenma da ddone mullae gogon",NA,"llamda","old man","pätt","3.sg.dat","da bälle","no",NA,"part_whole"
+"da","cl.poss","Llamda da bälle gazenma da ddone mullae gogon",NA,"llamda","old man","pätt","stem","da bälle","no",NA,"part_whole"
 "obo","3.sg.poss","däbe pite deya abo yu a ttänttäm e dängkamän daolle abo obo pätt de enanae tära dägagän yu a dättämän obom abo","The fire started to burn that grass skirt, and then it got his body and finally it burned him.","abo","then","pätt","stem","obo","yes","no","part_whole"
 "obo","3.sg.poss","Daolle abo arle gogon ddone mullae gogon gazenma da obo yu a dättemän kuddäll gogon","He screamed, he couldn't do anything, there was no escape, the fire burned him, he died.","da","nom","yu","fire","obo","yes","no",NA
 "bina","2.nsg.poss","Ero ke bina ke nga ero ikoikop gogaebne o","??","ke","counterfactual","ke","counterfactual","bina","yes","no",NA
@@ -7001,17 +7001,17 @@
 "oba","3.nsg.poss","Adawatta oba Amerika me ada mallo angde kollba da kälsäre a gozenalle gull e ubi mɨnyi daspunallo walle we","In America, when they get small fish they will throw them back into the water.","adawatta","because","amerika","America","oba","yes","no",NA
 "ngäma","1.excl.nsg.poss","Ge ede ge ngäma ttoenttoen ada ingollang deya",NA,"ge","this","ttoenttoen","small story","ngäma","yes","no",NA
 "da","cl.poss","Eso ulle Kate a ngäna mɨnyi eka bontemenyne ttängäm da bo pallall ttängäm de alla taterp erallo ami melem ngasnges erallo kättnan o iddnen o ibenen a ada ingollang","Thank you Kate. I will talk about gardens, how the new gardens are cleared, who does the work, making fence, digging, planting, and like that.","ttängäm","place","bo","3.sg.poss","da bo","no",NA,NA
-"da","cl.poss","Turik patt täräpnan däbe lla da bo dan de gogalle gottamänalle angde","The man does the cutting of the tree trunk with the axes, that's man's work, until it's finished,","lla","man","dan","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Turik patt täräpnan däbe lla da bo dan de gogalle gottamänalle angde","The man does the cutting of the tree trunk with the axes, that's man's work, until it's finished,","lla","man","dan","cop.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Turik patt täräpnan däbe lla da bo dan de gogalle gottamänalle angde","The man does the cutting of the tree trunk with the axes, that's man's work, until it's finished,","da","cl.poss","dan","cop.prs.sgS","bo","yes","no",NA
 "obo","3.sg.poss","Oke ibiran obo ngäntae e mälla da abo ikop bägneyo o mer agan ibeb ma dan","Okay, they go to check, the women will see that oh, it's good to plant now. [ngäntae = to check]","ibiran","go-aux.prs.1|3sgS","ngäntae","","obo","yes","no",NA
 "oba","3.nsg.poss","Oba de melem a diban ibenen","Their work is to plant.","dan","cop.prs.sgS,","de","acc","oba","yes","no",NA
 "bo","3.sg.poss","Dägagallo polle da angde akättan däbe ako mälla bo melem dan","They go, when the fence is built, then there's women's work after that.","mälla","woman","melem","work","bo","yes","no",NA
 "bo","3.sg.poss","Be ulle abal ibenen melem a era ede mälla bo dan","But the big work for planting is women's.","mälla","woman","dan","cop.prs.sgS,","bo","yes","no",NA
 "bo","3.sg.poss","Dade bikomnegnän lla bo melem a diban bäganegnän mälla da erame mätta dibenyalle dedme däganyalle kokong a erag","They bring the yam sticks, this is men's work, they plant them where the women planted the yams, where the shoots are coming out.","lla","man","melem","work","bo","yes","no",NA
-"da","cl.poss","E mälla da bo ibiran däbe koko de abo manen amallo deyanykoeallo dade we mermerae abo damonalle","Then women go and tie the shoots around the stick, they pull them towards the yam stick properly and wind them around.","mälla","woman","ibiran","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","E mälla da bo ibiran däbe koko de abo manen amallo deyanykoeallo dade we mermerae abo damonalle","Then women go and tie the shoots around the stick, they pull them towards the yam stick properly and wind them around.","mälla","woman","ibiran","go-aux.prs.1|3sgS","da bo","no",NA,NA
 "bo","3.sg.poss","E mälla da bo ibiran däbe koko de abo manen amallo deyanykoeallo dade we mermerae abo damonalle","Then women go and tie the shoots around the stick, they pull them towards the yam stick properly and wind them around.","da","cl.poss","ibiran","go-aux.prs.1|3sgS","bo","yes","no",NA
 "bo","3.sg.poss","E koko da dedme ibi wi dan polle kätkätt a daeya ottamänan be dade bo dan abo","Then they go for the shoots, the fence work is finished, it is yam stick work now.","dade","yam stick","dan","cop.prs.sgS","bo","yes","no",NA
-"da","cl.poss","Be abo dade melem a mälla da bo ibenenang a go bangesnegnän ine da eramae bizmollnän","That yam stick work continues while women continue planting and making drains so that the water will run down.","mälla","woman","ibenenang","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Be abo dade melem a mälla da bo ibenenang a go bangesnegnän ine da eramae bizmollnän","That yam stick work continues while women continue planting and making drains so that the water will run down.","mälla","woman","ibenenang","plant-II.pl=agt","da bo","no",NA,NA
 "bo","3.sg.poss","Be abo dade melem a mälla da bo ibenenang a go bangesnegnän ine da eramae bizmollnän","That yam stick work continues while women continue planting and making drains so that the water will run down.","da","cl.poss","ibenenang","plant-II.pl=agt","bo","yes","no",NA
 "bo","3.sg.poss","Oke däbe abo mälla bo melem dan","And then it's women's work.","mälla","woman","melem","work","bo","yes","no",NA
 "bo","3.sg.poss","Däbe mälla bo melem daeben","This is only women's work.","mälla","woman","melem","work","bo","yes","no",NA
@@ -7023,7 +7023,7 @@
 "mällaeyaba","woman=3.nsg.poss","Be mizi era mällaeyaba dan ge melem a","But this work is really for women.","era","foc","dan","cop.prs.sgS","aba","yes","no",NA
 "oba","3.nsg.poss","bangminggän mälla de be oba dan mällaeyaba dan bokomnän gaguma we","and help their wives, but it's the women's work to take them to the yam house.","be","but","dan","cop.prs.sgS","oba","yes","no",NA
 "mällaeyaba","woman=3.nsg.poss","bangminggän mälla de be oba dan mällaeyaba dan bokomnän gaguma we","and help their wives, but it's the women's work to take them to the yam house.","dan","cop.prs.sgS","dan","cop.prs.sgS","aba","yes","no",NA
-"da","cl.poss","Eso ulle a ttongo eka nawengaman ako dadel da bo eka","Thank you very much, I forgot one thing about the harvest.","dadel","harvest","eka","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Eso ulle a ttongo eka nawengaman ako dadel da bo eka","Thank you very much, I forgot one thing about the harvest.","dadel","harvest","eka","word,","da bo","no",NA,NA
 "bo","3.sg.poss","Eso ulle a ttongo eka nawengaman ako dadel da bo eka","Thank you very much, I forgot one thing about the harvest.","da","cl.poss","eka","word,","bo","yes","no",NA
 "oba","3.nsg.poss","oba däbe taem a angde bongttägän mätta täräp","At that time, because the yam time will come,","eka","word,","däbe","that.nom","oba","yes","no",NA
 "oba","3.nsg.poss","känazbag oba ttoen a tämamae gänymeae ugnen a","tomorrow everything that is needed for cooking in the oven will be at the house.","känazbag","tomorrow","ttoen","way","oba","yes","no",NA
@@ -7908,7 +7908,7 @@
 "bo","3.sg.poss","Yesu tämamae lla da wa obo ddob kollmällang a ddone dägnegän obo peyang ibi we be Pita Zeims Zon Zeims bo mänyan a Zaerus ubim ae dämalaemnegän",NA,"zeims","James","mänyan","younger sibling","bo","yes","no","kinship"
 "yaba","3.nsg.poss","Angde ubi zuu lla yaba ikopse ma maa bun lla Zaerus bo maa we dälltamän Yesu lla gul de kuddäll ttoen ngasnen gogle da wa ai ngänaeka me dabällenegän män kuddäll dabälle",NA,"lla","man","ikopse ma","prayer place","aba","yes","no",NA
 "bo","3.sg.poss","Angde ubi zuu lla yaba ikopse ma maa bun lla Zaerus bo maa we dälltamän Yesu lla gul de kuddäll ttoen ngasnen gogle da wa ai ngänaeka me dabällenegän män kuddäll dabälle",NA,"zaerus","","maa","house","bo","yes","no",NA
-"da","cl.poss","Diba imnealle Yesu ubim ae dokomän obo peyang ada a daolle män kälsäre da bo pätt a era känttatt maaiik me daeya torwamänggag",NA,"kälsäre","small","pätt","3.sg.poss","da bo","no",NA,"part_whole"
+"da","cl.poss","Diba imnealle Yesu ubim ae dokomän obo peyang ada a daolle män kälsäre da bo pätt a era känttatt maaiik me daeya torwamänggag",NA,"kälsäre","small","pätt","stem","da bo","no",NA,"part_whole"
 "bo","3.sg.poss","Diba imnealle Yesu ubim ae dokomän obo peyang ada a daolle män kälsäre da bo pätt a era känttatt maaiik me daeya torwamänggag",NA,"da","cl.poss","pätt","stem","bo","yes","no","part_whole"
 "obo","3.sg.poss","Obo midd a adadan Män kälsäre ngäna bam umllang nallan Angällbän",NA,"torwamänggag",",","midd","meat","obo","yes","no","part_whole"
 "obo","3.sg.poss","Obo ttam giddollatt pazi da tuwelb 12 dagaeya",NA,"","","ttam","leaf","obo","yes","no",NA
@@ -8061,7 +8061,7 @@
 "bo","3.sg.poss","Ako bogo ada eka gogon Be gänyan lla bo tikop atta enda gazenallan diba da obo tikop de kotangeran",NA,"lla","man","tikop","heart","bo","yes","no","part_whole"
 "obo","3.sg.poss","Ako bogo ada eka gogon Be gänyan lla bo tikop atta enda gazenallan diba da obo tikop de kotangeran",NA,"da","nom","tikop","heart","obo","yes","no","part_whole"
 "bo","3.sg.poss","Lla bo tikop guwo watta yuwog abal gagäll näkäpngon da gaznen anggan erada obom täram erallo gagäll ttoen ngasnen e ada gagäll ngalen me lignen ngasnen e gämäll e kuddäll e lla gäz e maretatt me ttongo da bo peyang liglig ttoen ngasnges e ttongo lla bo zaa moko we gagäll ttoen ngasnges e moko ttoen kuki we lla alämmeny ttoen e ekaklle ulle bo ttoen mokomoko we wareka ttoen e kuki alle lla malmal e ddonddo a konkokonkon ttoen ngasnges e",NA,"lla","man","tikop","heart","bo","yes","no","part_whole"
-"da","cl.poss","Lla bo tikop guwo watta yuwog abal gagäll näkäpngon da gaznen anggan erada obom täram erallo gagäll ttoen ngasnen e ada gagäll ngalen me lignen ngasnen e gämäll e kuddäll e lla gäz e maretatt me ttongo da bo peyang liglig ttoen ngasnges e ttongo lla bo zaa moko we gagäll ttoen ngasnges e moko ttoen kuki we lla alämmeny ttoen e ekaklle ulle bo ttoen mokomoko we wareka ttoen e kuki alle lla malmal e ddonddo a konkokonkon ttoen ngasnges e",NA,"ttongo","a","zaa","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Lla bo tikop guwo watta yuwog abal gagäll näkäpngon da gaznen anggan erada obom täram erallo gagäll ttoen ngasnen e ada gagäll ngalen me lignen ngasnen e gämäll e kuddäll e lla gäz e maretatt me ttongo da bo peyang liglig ttoen ngasnges e ttongo lla bo zaa moko we gagäll ttoen ngasnges e moko ttoen kuki we lla alämmeny ttoen e ekaklle ulle bo ttoen mokomoko we wareka ttoen e kuki alle lla malmal e ddonddo a konkokonkon ttoen ngasnges e",NA,"ttongo","a","zaa","things","da bo","no",NA,NA
 "bo","3.sg.poss","Lla bo tikop guwo watta yuwog abal gagäll näkäpngon da gaznen anggan erada obom täram erallo gagäll ttoen ngasnen e ada gagäll ngalen me lignen ngasnen e gämäll e kuddäll e lla gäz e maretatt me ttongo da bo peyang liglig ttoen ngasnges e ttongo lla bo zaa moko we gagäll ttoen ngasnges e moko ttoen kuki we lla alämmeny ttoen e ekaklle ulle bo ttoen mokomoko we wareka ttoen e kuki alle lla malmal e ddonddo a konkokonkon ttoen ngasnges e",NA,"lla","man","zaa","things","bo","yes","no",NA
 "bo","3.sg.poss","Lla bo tikop guwo watta yuwog abal gagäll näkäpngon da gaznen anggan erada obom täram erallo gagäll ttoen ngasnen e ada gagäll ngalen me lignen ngasnen e gämäll e kuddäll e lla gäz e maretatt me ttongo da bo peyang liglig ttoen ngasnges e ttongo lla bo zaa moko we gagäll ttoen ngasnges e moko ttoen kuki we lla alämmeny ttoen e ekaklle ulle bo ttoen mokomoko we wareka ttoen e kuki alle lla malmal e ddonddo a konkokonkon ttoen ngasnges e",NA,"ulle","big","ttoen","way","bo","yes","no",NA
 "bo","3.sg.poss","Ge tämamae gagäll ttoen a lla bo tikop guwo watta gazgezallan a obo tikop de kotang erallo",NA,"lla","man","tikop","heart","bo","yes","no","part_whole"
@@ -8248,10 +8248,10 @@
 "obo","3.sg.poss","Yesu angde maa we gongosän obo kollmällang aba peyang maa me obo kollmällang a obom dangnoeyo mälla ddaebän ttoen pallall",NA,"gongosän","return.rem.3sgS","kollmällang","disciple","obo","yes","no","kinship"
 "obo","3.sg.poss","Yesu angde maa we gongosän obo kollmällang aba peyang maa me obo kollmällang a obom dangnoeyo mälla ddaebän ttoen pallall",NA,"me","loc","kollmällang","disciple","obo","yes","no","kinship"
 "obo","3.sg.poss","Bogo ada umllang dägnegän ubim Da aeya obo mälla de maretatt me bäddebänän a ttongo mälla de bällädän oblle mälla we a erame ubi täräp bällam buligneyo bogo enda maretatt me da ttongo da bo peyang liglig ttoen de ngasnges eran",NA,"aeya","who","mälla","woman","obo","yes","no","kinship"
-"da","cl.poss","Bogo ada umllang dägnegän ubim Da aeya obo mälla de maretatt me bäddebänän a ttongo mälla de bällädän oblle mälla we a erame ubi täräp bällam buligneyo bogo enda maretatt me da ttongo da bo peyang liglig ttoen de ngasnges eran",NA,"ttongo","a","gudne","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Bogo ada umllang dägnegän ubim Da aeya obo mälla de maretatt me bäddebänän a ttongo mälla de bällädän oblle mälla we a erame ubi täräp bällam buligneyo bogo enda maretatt me da ttongo da bo peyang liglig ttoen de ngasnges eran",NA,"ttongo","a","gudne","old","da bo","no",NA,NA
 "obo","3.sg.poss","ako bogo gagäll abal ttoen de ngasnges eran diba mälla pate a obo gudne mälla pate ade",NA,"a","nom","gudne","old","obo","yes","no",NA
 "obo","3.sg.poss","Mälla da ade adawae Da aeya obo gullbe de bäddebänän a ttongo lla de bällädän oblle gullbe we a erame ubi täräp bällam buligneyo bogo enda maretatt me da ttongo da bo peyang liglig ttoen de ngasnges eran",NA,"aeya","who","gullbe","husband","obo","yes","no",NA
-"da","cl.poss","Mälla da ade adawae Da aeya obo gullbe de bäddebänän a ttongo lla de bällädän oblle gullbe we a erame ubi täräp bällam buligneyo bogo enda maretatt me da ttongo da bo peyang liglig ttoen de ngasnges eran",NA,"ttongo","a","gudne","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Mälla da ade adawae Da aeya obo gullbe de bäddebänän a ttongo lla de bällädän oblle gullbe we a erame ubi täräp bällam buligneyo bogo enda maretatt me da ttongo da bo peyang liglig ttoen de ngasnges eran",NA,"ttongo","a","gudne","old","da bo","no",NA,NA
 "bo","3.sg.poss","Ako bogo gagäll abal ttoen de ngasnges eran diba lla pate a bo gudne gullbe pate",NA,"a","nom","gudne","old","bo","yes","no",NA
 "oba","3.nsg.poss","Ttongo täräp me lla da oba llɨg kälekäle de dokomneyo Yesu pate adawede oba bogo ubim ttang alle bädbällmällnegnalle a oba patme mer ngasnen a bundubenegnalle",NA,"da","nom","llɨg","boy","oba","yes","no","kinship"
 "oba","3.nsg.poss","Ttongo täräp me lla da oba llɨg kälekäle de dokomneyo Yesu pate adawede oba bogo ubim ttang alle bädbällmällnegnalle a oba patme mer ngasnen a bundubenegnalle",NA,"adawede","so that","bogo","3.sg.nom","oba","yes","no",NA
@@ -8808,7 +8808,7 @@
 "ngämo","1.sg.poss","Däräng a käsre kaeg da bom kuki de dängkamän ada Ngäna ngämo llan de era yatärpänan",NA,"ngäna","1.sg.nom","llan","ear","ngämo","yes","no","part_whole"
 "obo","3.sg.poss","Baet bo moko da eraya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a allan ingollang gogeyo",NA,"eraya","cop.where.pst.sgS","llan","ear","obo","yes","no","part_whole"
 "obo","3.sg.poss","Baet bo moko da eraya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a allan ingollang gogeyo",NA,"ge","this","kapera","relation type","obo","yes","no",NA
-"da","cl.poss","Baet bo moko da eraya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a allan ingollang gogeyo",NA,"däräng","dog","llan","3.sg.poss","da bo","no",NA,"part_whole"
+"da","cl.poss","Baet bo moko da eraya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a allan ingollang gogeyo",NA,"däräng","dog","llan","ear","da bo","no",NA,"part_whole"
 "bo","3.sg.poss","Baet bo moko da eraya obo llan a ade ada ingoll bogallo ge obo kapera Däräng da bo llan a allan ingollang gogeyo",NA,"da","cl.poss","llan","ear","bo","yes","no","part_whole"
 "nagda","friend=cl.poss.kin","Dibaballe däräng a käsre nagda Baet bom ada dägagän Bongo ngänäm nantmon nga ngäna ma we balle",NA,"käsre","then","baet","cuscus","da","no",NA,NA
 "bo","3.sg.poss","Däräng käsre dallän do ma we gogon a täl pallkoll de diwenyän käsre ada ka gänyaolle nagde Baet bo llan de täräpnan anggan",NA,"baet","cuscus","llan","ear","bo","yes","no","part_whole"
@@ -8824,7 +8824,7 @@
 "ngäma","1.excl.nsg.poss","Ngämi ngäma bägäl a wa toboll a danserbeaebeya a däpllätt abo do Taolang gall tapma",NA,"ngämi","1.excl.nsg.nom","bägäl","bow","ngäma","yes","no",NA
 "aba","3.nsg.poss","Kui e ngämi dälltam a six llɨg a po we gobällän daolle ddäddäg aba gäbnan ma da erae dagaeya",NA,"ddäddäg","animal","gäbnan","jump-pl","aba","yes","no",NA
 "abaene","3.nsg.pst.poss","Diba mamoe makäp me ngämi misdae ddäddäg abaene towall llällam emae llandräg gogaebne",NA,"ddäddäg","animal","towall","grass","abaene","yes","yes",NA
-"da","cl.poss","Diba kui me ttongdae eddia gullbe daebeya däbe ddia da ttongo llɨg da bo pate gongttägän a bogo tikop abal me dazuwän",NA,"llɨg","boy","pemli","3.sg.poss","da bo","no",NA,"kinship"
+"da","cl.poss","Diba kui me ttongdae eddia gullbe daebeya däbe ddia da ttongo llɨg da bo pate gongttägän a bogo tikop abal me dazuwän",NA,"llɨg","boy","pemli","family","da bo","no",NA,"kinship"
 "ngäma","1.excl.nsg.poss","Diba toto me ngäma pemli aba peyang ngämi mer duwem de dägaeya adawatta ddia da däbe ddobae gi daeya",NA,"me","loc","pemli","family","ngäma","yes","no","kinship"
 "auseda","old.woman=cl.poss.kin","Auseda bo llɨg kälsre da ngänaeka de gongkamän","The old woman's little boy started to cry.","daeya","cop.pst.sgS,","bo","3.sg.poss","da","no",NA,NA
 "bo","3.sg.poss","Auseda bo llɨg kälsre da ngänaeka de gongkamän","The old woman's little boy started to cry.","auseda","old.woman=cl.poss.kin","llɨg","boy","bo","yes","no","kinship"
@@ -8897,7 +8897,7 @@
 "oba","3.nsg.poss","Oba melem dättemäneyo a gongoseyo ma we",NA,"nättemän","finish.imp.2sgA>3sgP,","melem","work","oba","yes","no",NA
 "da","cl.poss.kin","Dallän ikop däddägnän gongosän mälla da bom umllang dägagän",NA,"mälla","woman","bom","3.sg.acc","da","no",NA,"kinship"
 "obo","3.sg.poss","Llamda da obo ada pite da alläp a banggu da däbe dokomän",NA,"da","nom","ada","like this","obo","yes","no",NA
-"da","cl.poss","Kandärmang yu da daollemae llamda da bälle gazenma da ddone mullae gogon",NA,"llamda","old man","pätt","3.sg.dat","da bälle","no",NA,"part_whole"
+"da","cl.poss","Kandärmang yu da daollemae llamda da bälle gazenma da ddone mullae gogon",NA,"llamda","old man","pätt","stem","da bälle","no",NA,"part_whole"
 "obo","3.sg.poss","Daolle obo pätt de tära dägagän dättemänän",NA,"daolle","there=all","pätt","stem","obo","yes","no","part_whole"
 "bina","2.nsg.poss","Nag a Piasorosoro bom yu a tärpa nägagan a ero ke bina ke nga ero ikopikop gogaebne o",NA,"ke","counterfactual","ke","counterfactual","bina","yes","no",NA
 "obo","3.sg.poss","Yu da amom dättämän obo bin a bogo aenaeya Piasorosoro",NA,"","","bin","name","obo","yes","no",NA
@@ -8914,10 +8914,10 @@
 "llabunda","relative=cl.poss.kin","Kuddäll eka de lla da mɨnyi dängawallo utt ekaekong llabunda bira ami ddob ttängäm me giddollnen eran","People will spread the message by sounding the conch shell for relatives that live in other villages.","ekaekong","make.noise-agt","bira","3.nsg.dat","da","no",NA,NA
 "llabunda","relative=cl.poss.kin","Llabunda bi llollo e gobällaballe kandärmang ngänaeka peyang dälltamalle","Relatives will hear the conch shell and come and will be crying when they arrive.","eran","aux.prs.1|3sgA>3sgP,","bi","3.nsg.nom","da","no",NA,NA
 "obo","3.sg.poss","Angde obo täräp a ngäs e dällädalle bogo mɨnyi do alle olle gogalle do lla gulag aba pate","When the time comes for him to return, he will call out to the crowd of people.","angde","when","täräp","time","obo","yes","no",NA
-"da","cl.poss","Täräb a era kuddäll lla da bäne za dan","Täräb is the dead person's belongings.","lla","person","za","3.sg.pst.poss","da bäne","no",NA,NA
+"da","cl.poss","Täräb a era kuddäll lla da bäne za dan","Täräb is the dead person's belongings.","lla","person","za","thing","da bäne","no",NA,NA
 "bäne","3.sg.pst.poss","Täräb a era kuddäll lla da bäne za dan","Täräb is the dead person's belongings.","da","cl.poss","za","thing","bäne","yes","yes",NA
 "llabunda","relative=cl.poss.kin","A eka de umllang dägnegalle llabunda bim ge bogo tärämpmeny me ttoen de umllang agan","He will tell the relatives what he learned in the night.","dägnegalle","aux.rem.hab.sgA>3plP","bim","3.nsg.acc","da","no",NA,NA
-"da","cl.poss","Lla da angde täre de dägagallo däbe ebdo me kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a täl de dämpäddmenyallo","On the day of the feast, people will burn the dead person's house and some of his things, and will throw in bamboo which will blow up.","lla","man","ma","3.sg.pst.poss","da bäne","no",NA,NA
+"da","cl.poss","Lla da angde täre de dägagallo däbe ebdo me kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a täl de dämpäddmenyallo","On the day of the feast, people will burn the dead person's house and some of his things, and will throw in bamboo which will blow up.","lla","man","ma","house","da bäne","no",NA,NA
 "bäne","3.sg.pst.poss","Lla da angde täre de dägagallo däbe ebdo me kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a täl de dämpäddmenyallo","On the day of the feast, people will burn the dead person's house and some of his things, and will throw in bamboo which will blow up.","da","cl.poss","ma","house","bäne","yes","yes",NA
 "oba","3.nsg.poss","Oba bin a ubi dagwaeya Pollgo a Guzi",NA,"dämpäddmenyallo","blow up,","bin","name","oba","yes","no",NA
 "oba","3.nsg.poss","Ttongo mer indrang ag me ge komlla nag a gogezäneyo oba giddollma watta a ikop gogneyo adawede ka amom ikop bägaeya be ddone amom ikop dägaeyo","One good bright morning, these two friends came out of their homes and looked, \""who do we see\"" but they saw no one.","gogezäneyo","come.out.rem.3duS","giddollma","live-nmlz","oba","yes","no",NA
@@ -8961,11 +8961,11 @@
 "ama","who.nsg.poss","Ama daware or-re-e-ya",NA,"dipttolän","start singing.rem.ven.3sgA>3sgP,","daware","","ama","no",NA,NA
 "ngäma","1.excl.nsg.poss","Ngäma ttoenttoen dan Ende llayaba ttoenttoen dan",NA,"or-re-e-ya",",","ttoenttoen","small story","ngäma","yes","no",NA
 "llayaba","person=3.nsg.poss","Ngäma ttoenttoen dan Ende llayaba ttoenttoen dan",NA,"ende","language name","ttoenttoen","small story","aba","yes","no",NA
-"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"ttongo","a","gänyan","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"ttongo","a","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"da","cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
-"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"ttongo","a","gänyan","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"ttongo","a","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"da","cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
-"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"ttongo","a","gänyan","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"ttongo","a","gänyan","cop.here.prs.sgS","da bo","no",NA,NA
 "bo","3.sg.poss","Däbe abo dakdaeballo ada ttongo da bo gänyan ttongo da bo gänyan ttongo da bo gänyan do tämamae lla da mullae täräp gogmallo",NA,"da","cl.poss","gänyan","cop.here.prs.sgS","bo","yes","no",NA
 "bo","3.sg.poss","Borale bo ngasnges a alla ingollang dan",NA,"borale","flute","ngasnges","do","bo","yes","no",NA
 "bäne","2.sg.poss","Angde bongo podoe de nängkam bäne ttang llɨpɨt alle mɨnyi eka de bongo kandärmang ngalen me borale bo eka de koenmällkoenmäll nägne",NA,"nängkam","start.imp.2sgA>3sgP","ttang","hand","bäne (2)","yes","no","part_whole"
@@ -8975,10 +8975,10 @@
 "da","cl.poss.kin","Kuddäll eka de lla da mɨnyi dängeallo utt ekaekong llabun da bira ami ddob ttängäm me giddollnen eran",NA,"llabun","relative","bira","3.nsg.dat","da","no",NA,"kinship"
 "llabunda","relative=cl.poss.kin","Llabunda bi llollo e gobällaballe kandärmang ngänaeka peyang dälltamalle",NA,"eran","aux.prs.1|3sgA>3sgP,","bi","3.nsg.nom","da","no",NA,NA
 "obo","3.sg.poss","Angde obo täräp a ngäs e dällädalle bogo mɨnyi doalle olle gogalle do lla gulag aba pate",NA,"angde","when","täräp","time","obo","yes","no",NA
-"da","cl.poss","Täräb a era kuddäll lla da bäne za da",NA,"lla","man","za","3.sg.pst.poss","da bäne","no",NA,NA
+"da","cl.poss","Täräb a era kuddäll lla da bäne za da",NA,"lla","man","za","thing","da bäne","no",NA,NA
 "bäne","3.sg.pst.poss","Täräb a era kuddäll lla da bäne za da",NA,"da","cl.poss","za","thing","bäne","yes","yes",NA
 "llabunda","relative=cl.poss.kin","A eka de umllang däganegalle llabunda bim ge bogo tärämpämeny me e ttoen de umllang agan",NA,"däganegalle","","bim","3.nsg.acc","da","no",NA,NA
-"da","cl.poss","Lla da angde täre de dägagallo däbe ebdo kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a täl de däpäddaeballo",NA,"lla","man","ma","3.sg.pst.poss","da bäne","no",NA,NA
+"da","cl.poss","Lla da angde täre de dägagallo däbe ebdo kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a täl de däpäddaeballo",NA,"lla","man","ma","house","da bäne","no",NA,NA
 "bäne","3.sg.pst.poss","Lla da angde täre de dägagallo däbe ebdo kuddäll lla da bäne ma de däddellɨgallo ddob za de yu alle daemponomenyaemallo a täl de däpäddaeballo",NA,"da","cl.poss","ma","house","bäne","yes","yes",NA
 "da","cl.poss.kin","Lla da kuddäll gogalle e mälla da bom komlla mälla da dandmenänggallo menae me godmenallo a mälla mik a amne me",NA,"mälla","woman","bom","3.sg.acc","da","no",NA,"kinship"
 "da","cl.poss.kin","Mälla da kuddäll gogalle gullbe da bom komlla mälla dändmenänggallo menae me godmenallo a mik a amne me",NA,"gullbe","husband","bom","3.sg.acc","da","no",NA,NA
@@ -9243,7 +9243,7 @@
 "oba","3.nsg.poss","Adawatt me oba mälla sisor de deyatramallo oba ngättma sapasapang e",NA,"me","loc","mälla","woman","oba","yes","no","kinship"
 "oba","3.nsg.poss","Adawatt me oba mälla sisor de deyatramallo oba ngättma sapasapang e",NA,"deyatramallo","","ngättma","place","oba","yes","no",NA
 "ngäma","1.excl.nsg.poss","Ada ingollang dan ngäma mälla maret ttoen a",NA,"dan","cop.prs.sgS","mälla","woman","ngäma","yes","no","kinship"
-"da","cl.poss","Dadel ebdo da bo angde gongttägalle duwematt me mälla da säpalek de oba dänglläballo goementtmenyamalle",NA,"ebdo","day","angde","3.sg.poss","da bo","no",NA,NA
+"da","cl.poss","Dadel ebdo da bo angde gongttägalle duwematt me mälla da säpalek de oba dänglläballo goementtmenyamalle",NA,"ebdo","day","angde","when","da bo","no",NA,NA
 "bo","3.sg.poss","Dadel ebdo da bo angde gongttägalle duwematt me mälla da säpalek de oba dänglläballo goementtmenyamalle",NA,"da","cl.poss","angde","when","bo","yes","no",NA
 "oba","3.nsg.poss","Dadel ebdo da bo angde gongttägalle duwematt me mälla da säpalek de oba dänglläballo goementtmenyamalle",NA,"de","acc","dänglläballo","","oba","yes","no",NA
 "oba","3.nsg.poss","Lla da ade oba nyängkallbidd de goementtmenyamalle",NA,"ade","also","nyängkallbidd","bag type","oba","yes","no",NA

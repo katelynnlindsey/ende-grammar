@@ -250,6 +250,12 @@ tidy_poss$next_word_txt <- ifelse(
   lead(tidy_poss$next_word_txt),
   tidy_poss$next_word_txt
 )
+
+tidy_poss$next_word_tr <- ifelse(
+  tidy_poss$poss_type %in% c("da bo", "da bäne", "da bälle"), 
+  lead(tidy_poss$next_word_tr),
+  tidy_poss$next_word_tr
+)
 ```
 
 Next, we can add a column that splits the data between pronominal and non-pronominal possession types.
