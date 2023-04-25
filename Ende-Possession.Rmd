@@ -101,13 +101,16 @@ tidy_poss$next_word_txt <- lead(tidy_poss$word_txt)
 tidy_poss$next_word_tr <- lead(tidy_poss$word_tr)
 ```
 
-Now, we will clean up the rows once more, only retaining the words with "poss" in the word_tr column and removing capitalization.
+Now, we will clean up the rows once more, only retaining the words with "poss" in the word_tr column and removing capitalization and commas.
 
 ```{r}
 tidy_poss <- subset(tidy_poss, grepl("poss", word_tr))
 tidy_poss$word_txt <- tolower(tidy_poss$word_txt)
 tidy_poss$prev_word_txt <- tolower(tidy_poss$prev_word_txt)
 tidy_poss$next_word_txt <- tolower(tidy_poss$next_word_txt)
+tidy_poss$word_txt <- gsub(",", "", tidy_poss$word_txt)
+tidy_poss$prev_word_txt <- gsub(",", "", tidy_poss$prev_word_txt)
+tidy_poss$next_word_txt <- gsub(",", "", tidy_poss$next_word_txt)
 ```
 
 I noticed that possession words followed by certain words are not marking possession in the sense we are interested in, so I will remove all the rows that have these words in the next_word_txt column.
@@ -120,9 +123,22 @@ tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "pallall", ]
 tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "moko", ]
 tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "umllang", ]
 tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "kame", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "bakamall", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "bakmall", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "pat", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "patalle", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "patatt", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "pate-oǃ", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "patmeae", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "peyany", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "zag", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "zaga", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "zäga", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "zagaba", ]
+tidy_poss <- tidy_poss[tidy_poss$next_word_txt != "zägaba", ]
 ```
 
-This reduced the number of observations from 10546 to 9547.
+This reduced the number of observations from 10546 to 9278.
 
 ## Data visualization
 
@@ -130,6 +146,7 @@ Here is a list of all the possession words identified in the dataset, along with
 
 ```{r word frequencies}
 library(ggplot2)
+library(dplyr)
 
 tidy_poss %>%
      count(word_txt, sort = TRUE) %>%
@@ -186,6 +203,7 @@ We can now start to code our dataset for relevant properties.
 First, we can clean up our list or possession words by making a new column called possession type.
 
 ```{r}
+library(stringr)
 tidy_poss <- tidy_poss %>%
   mutate(poss_type = if_else(!str_detect(word_tr, "cl\\.poss\\.kin"), paste("da", next_word_txt, sep = " "), "da"), poss_type = if_else(!str_detect(word_tr, "cl\\.p"), word_txt, poss_type))
 
@@ -210,7 +228,6 @@ tidy_poss$poss_type <- ifelse(tidy_poss$word_tr == "2.sg.poss", "bäne (2)", tid
 
 
 tidy_poss$poss_type <- trimws(tidy_poss$poss_type)
-tidy_poss$poss_type <- gsub(",", "", tidy_poss$poss_type)
 ```
 
 Now, we can look at the frequencies of possession type.
@@ -223,6 +240,16 @@ tidy_poss %>%
      ggplot(aes(n, poss_type)) +
      geom_col() +
      labs(y = NULL)
+```
+
+Now that we have possession types, we want to add the correct next_word for the possessor types "da bo", "da bäne", "da bälle".
+
+```{r}
+tidy_poss$next_word_txt <- ifelse(
+  tidy_poss$poss_type %in% c("da bo", "da bäne", "da bälle"), 
+  lead(tidy_poss$next_word_txt),
+  tidy_poss$next_word_txt
+)
 ```
 
 Next, we can add a column that splits the data between pronominal and non-pronominal possession types.
@@ -268,6 +295,38 @@ tidy_poss %>%
 ```
 
 The genitive is also much more common than the ablative.
+
+
+
+## Possession relationships
+
+The first type of possession relationship I want to look at is kinship. I'll start by defining the types of possessees that are kinship types.
+
+```{r}
+kinship <- c("baba", "babada", "bababi", "beibi", "binang", "erang", "family", "femli", "friend", "kak", "kakak", "kllum", "kobeyam", "kok", "kokok", "kokoka", "kollmällang", "kullum", "lla", "llabun", "llaeyaba", "lläg", "llamäg", "llamda", "llɨg", "llɨgaba", "llɨgabaene", "llayabira", "llayabang", "llayaba", "mäda", "mädabi", "mädaolle", "mädawaebe", "mädawainen", "mädo", "mäg", "mag", "mägda", "mälla", "mällada", "mällaeyaba", "mällayaba", "mällayabira", "mällpa", "mami", "män", "mänang", "mända", "mänduar", "mang", "mänmän", "mänyamänyan", "mänyan", "mänyanmänyan", "masamasar", "masar", "masarda", "masarmasar", "meyag", "meyang", "mik", "mosemosen", "mosen", "mosenmosen", "nadum", "nag", "nagnag", "nane", "omad", "pamli", "päzäg", "päzäpäzäg", "päzɨg", "pemli", "pemliangae", "pope", "sistas", "tambu", "uncle", "yakäl", "yäkäl", "yäkälnda", "yaya")
+
+body_part <- c("bun", "ddäg", "llan", "mam", "matta", "midd", "mɨllɨng", "ngam", "ngoe", "pälkom", "pällkom", "pätt", "tikop", "ttäle", "ttang")
+
+tidy_poss$poss_rel <- ifelse(tidy_poss$next_word_txt %in% kinship, "kinship", tidy_poss$poss_rel)
+tidy_poss$poss_rel <- ifelse(tidy_poss$poss_type == "da" & tidy_poss$prev_word_txt %in% kinship, "kinship", tidy_poss$poss_rel)
+tidy_poss$poss_rel <- ifelse(tidy_poss$next_word_txt %in% body_part, "part_whole", tidy_poss$poss_rel)
+```
+
+We can view a summary here:
+
+```{r}
+library(dplyr)
+
+# Group the tidy_poss dataframe by pronominal, ablative, poss_type, and poss_rel, and calculate the count of each category of poss_rel
+tidy_poss_summary <- tidy_poss %>%
+  group_by(poss_type, poss_rel) %>%
+  summarise(count = sum(!is.na(poss_rel) | poss_rel %in% c("kinship", "part-whole"))) %>%
+  ungroup()
+
+# View the resulting summary dataframe
+tidy_poss_summary
+```
+
 
 A reminder to save all my dataframes to be pushed to GitHub.
 ```{r}
