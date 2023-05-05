@@ -1,0 +1,120 @@
+---
+title: "Ende-TAM"
+author: "Kate Lindsey"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data mining
+
+The raw data comes from a .txt file called phrases.txt, which was provided by Jack Rabinovitch. The data was scraped from an April 2023 version of the Ende FLEx corpus.
+
+```{r}
+library(readr)
+phrases <- read_delim("C:/Users/profk/Downloads/phrases.txt", 
+     delim = "\t", escape_double = FALSE, 
+     trim_ws = TRUE)
+```
+
+This dataframe has 37,772 phrases.
+
+To focus on phrases with verbs, I reduced the data to only the rows that have "verb" in the words_pos column. This should capture all words marked as synthetic/analytic verbs, auxiliary verbs, and copular verbs.
+
+```{r}
+df_TAM <- subset(phrases, grepl("verb", words_pos))
+```
+
+The new dataframe has 20,355 phrases.
+
+To tidy up the dataframe, I will create a new column for the phrase (phrase_txt), which is words_txt without the commas. I will rename the gls column to phrase_tr, the words_txt to word_txt, the words_gl to word_tr, the words_pos to word_pos and I will remove all columns except for word_tr, word_txt, phrase_tr, and phrase_txt.
+
+```{r}
+library(dplyr)
+
+tidy_TAM <- df_TAM %>% mutate(phrase_txt = gsub(",", " ", words_txt))
+tidy_TAM$phrase_txt <- gsub("  ", " ", tidy_TAM$phrase_txt)
+tidy_TAM$phrase_txt <- gsub("  ", " ", tidy_TAM$phrase_txt)
+tidy_TAM$phrase_txt <- gsub("  ", " ", tidy_TAM$phrase_txt)
+tidy_TAM <- tidy_TAM %>% rename(phrase_tr = gls, word_txt = words_txt, word_tr = words_gls, word_pos = words_pos)
+tidy_TAM <- select(tidy_TAM, word_txt, word_tr, word_pos, phrase_txt, phrase_tr)
+```
+Now, we will reorganize the dataframe so that each row represents one word.
+
+```{r}
+library(tidyr)
+library(stringr)
+
+tidy_TAM$word_tr <- gsub("correct, true, right", "correct", tidy_TAM$word_tr) 
+tidy_TAM$word_tr <- gsub("Idi borrowing for ll, to go", "to go", tidy_TAM$word_tr)
+#this translation was giving us trouble
+
+tidy_TAM <- tidy_TAM %>% 
+  mutate(
+    word_txt_commas = stringr::str_count(word_txt, ", "),
+    word_tr_commas = stringr::str_count(word_tr, ", ")
+  ) %>% 
+  mutate(
+    word_tr = ifelse(word_tr_commas < word_txt_commas, paste0(word_tr, ", "), word_tr)
+  )
+
+tidy_TAM <- tidy_TAM %>% 
+  mutate(
+    word_tr_commas = stringr::str_count(word_tr, ", "),
+    word_pos_commas = stringr::str_count(word_pos, ", ")
+  ) %>% 
+  mutate(
+    word_pos = ifelse(word_pos_commas < word_tr_commas, paste0(word_pos, ", "), word_pos)
+  )
+
+tidy_TAM <- tidy_TAM %>% separate_rows(word_txt, word_tr, word_pos, sep = ", ")
+tidy_TAM <- tidy_TAM %>% mutate_all(str_trim)
+```
+
+Now, we will clean up the rows once more, only retaining the words with "verb" in the word_pos column, removing capitalization and commas, and removing the count commas columns.
+
+```{r}
+tidy_TAM <- subset(tidy_TAM, grepl("verb", word_pos))
+tidy_TAM <- tidy_TAM[!grepl("adverb", tidy_TAM$word_pos), ]
+tidy_TAM$word_txt <- tolower(tidy_TAM$word_txt)
+tidy_TAM$word_txt <- gsub(",", "", tidy_TAM$word_txt)
+tidy_TAM$word_tr <- gsub(",", "", tidy_TAM$word_tr)
+tidy_TAM$word_pos <- gsub(",", "", tidy_TAM$word_pos)
+tidy_TAM <- tidy_TAM %>% 
+  select(-word_txt_commas, -word_tr_commas, -word_pos_commas)
+```
+
+Now, we will search the word_tr column for any tense, aspect, or modality information and puts it into a column verb_TAM.
+
+```{r}
+tidy_TAM <- tidy_TAM %>%
+  mutate(verb_TAM = case_when(
+    str_detect(word_tr, "\\.prs\\.") ~ "prs",
+    str_detect(word_tr, "\\.rem\\.") ~ "rem",
+    str_detect(word_tr, "\\.rec\\.") ~ "rec",
+    str_detect(word_tr, "\\.fut\\.") ~ "fut",
+    str_detect(word_tr, "\\.irr\\.") ~ "irr",
+    str_detect(word_tr, "\\.cond\\.") ~ "cond",
+    TRUE ~ NA_character_
+  ))
+```
+
+We will now reduce the dataframe to those verbs that have TAM information.
+
+```{r}
+tidy_TAM <- tidy_TAM[complete.cases(tidy_TAM$verb_TAM), ]
+```
+
+Now, we will add two columns, one for previous verb TAM, one for following verb TAM information, and one that concatenates the three together.
+
+```{r}
+tidy_TAM$prev_verb_TAM <- lag(tidy_TAM$verb_TAM)
+tidy_TAM$next_verb_TAM <- lead(tidy_TAM$verb_TAM)
+tidy_TAM <- tidy_TAM %>%
+  mutate(TAM_pattern = paste(prev_verb_TAM, verb_TAM, next_verb_TAM, sep = "."))
+```
+
+
